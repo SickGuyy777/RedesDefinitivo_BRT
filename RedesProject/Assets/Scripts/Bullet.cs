@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D (Collision2D collision)
     {
         if(collision.gameObject.tag == "Wall")
         {
@@ -33,5 +33,11 @@ public class Bullet : MonoBehaviour
             var dir = Vector3.Reflect(_lastVel.normalized, collision.contacts[0].normal);
             _rb.velocity = dir * Mathf.Max(speed, 0f);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Shield")
+            Destroy(this.gameObject);
     }
 }
