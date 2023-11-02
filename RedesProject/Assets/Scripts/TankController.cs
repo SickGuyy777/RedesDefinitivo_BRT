@@ -9,19 +9,21 @@ public class TankController : MonoBehaviour
     [SerializeField] Transform _shootPoint;
     [SerializeField] float _bulletSpeed;
     public bool homingMissile, laser, canShoot;
-
+    public float shootRate;//esto modifica el cooldown de disparo en el inspector
+    public float ShootRateTime = 0;
     [Header("Values")]
     [SerializeField] float _rotSpeed;
     [SerializeField] float _maxSpeed;
     [SerializeField] int _maxAmmo;
     [SerializeField] float _maxTimeTimer;
+    [SerializeField] Transform _rootHeadTanq;
+    [SerializeField] float rootSpeedHead;
     public int maxAmmo;
     public int currentAmmo;
-
     float _currentTimerTime;
     float _movementSpeed;
     float _rotZ;
-
+    
     private void Start()
     {
         _movementSpeed = _maxSpeed;
@@ -34,21 +36,25 @@ public class TankController : MonoBehaviour
     private void Update()
     {
         Movement();
-
-        if (Input.GetKeyDown(KeyCode.Space) && currentAmmo > 0 && canShoot)
+        RotHeadTank(_rootHeadTanq);
+        if (Input.GetKeyDown(KeyCode.Mouse0) && currentAmmo > 0 && canShoot)
         {
-            if(homingMissile == true)
+            if (Time.time > ShootRateTime) //coldown de disparo
             {
-                homingMissile = false;
-                Shoot(_missilePrefab);
+                ShootRateTime = Time.time + shootRate;
+                if (homingMissile == true)
+                {
+                    homingMissile = false;
+                    Shoot(_missilePrefab);
+                }
+                else Shoot(_bulletPrefab);
             }
-            else Shoot(_bulletPrefab);
         }
-
-        if(currentAmmo < maxAmmo)
+        if (currentAmmo < maxAmmo)
             Timer();
     }
-    
+
+
     void Movement()
     {
         float h = Input.GetAxisRaw("Horizontal");
@@ -70,6 +76,15 @@ public class TankController : MonoBehaviour
             _movementSpeed = _maxSpeed / 1.5f;
             transform.position += -transform.up * _movementSpeed * Time.deltaTime;
         }
+    }
+
+    public void RotHeadTank(Transform head)
+    {
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 direction = mousePos - head.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        head.rotation = Quaternion.RotateTowards(head.rotation, Quaternion.Euler(0, 0, angle - 90), rootSpeedHead * Time.deltaTime);
+
     }
 
     void Shoot(GameObject currentBullet)
