@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Fusion;
 
 public class TankController : MonoBehaviour
 {
@@ -12,7 +14,10 @@ public class TankController : MonoBehaviour
     public float shootRate;//esto modifica el cooldown de disparo en el inspector
     public float ShootRateTime = 0;
     [Header("Values")]
+
+    [Networked(OnChanged = nameof(OnLifeChanged))]
     [SerializeField] float _rotSpeed;
+    [SerializeField] float _life { get; set; }
     [SerializeField] float _maxSpeed;
     [SerializeField] int _maxAmmo;
     [SerializeField] float _maxTimeTimer;
@@ -23,7 +28,9 @@ public class TankController : MonoBehaviour
     float _currentTimerTime;
     float _movementSpeed;
     float _rotZ;
-    
+
+    public event Action<float> OnLifeChange = delegate { };
+
     private void Start()
     {
         _movementSpeed = _maxSpeed;
@@ -92,6 +99,36 @@ public class TankController : MonoBehaviour
         currentAmmo--;
         var bullet = Instantiate(currentBullet, _shootPoint.position, transform.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = _shootPoint.up * _bulletSpeed;
+    }
+
+    public void TakeDamage(float dmg)
+    {
+        RPC_GetHit(dmg);
+    }
+
+    [Rpc(RpcSources.All, RpcTargets.StateAuthority)]
+    void RPC_GetHit(float dmg)
+    {
+        _life -= dmg;
+
+        OnLifeChange(_life / 100);
+
+        if (_life <= 0)
+        {
+            Dead();
+        }
+    }
+
+    static void OnLifeChanged (Changed<PlayerModel> changed)
+    {
+        var behaviour = changed.Behaviour;
+
+        behaviour.OnlifeChange(behaviour._life / 100);
+    }
+
+    void Dead()
+    {
+        Runner.Shutdown();
     }
 
     void Timer()
