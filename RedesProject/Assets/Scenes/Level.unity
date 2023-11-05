@@ -37436,7 +37436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7368160372169905717, guid: 60d199ab61d1ab941be10b3b5ece5367, type: 3}
       propertyPath: shootRate
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7368160372169905717, guid: 60d199ab61d1ab941be10b3b5ece5367, type: 3}
       propertyPath: currentAmmo

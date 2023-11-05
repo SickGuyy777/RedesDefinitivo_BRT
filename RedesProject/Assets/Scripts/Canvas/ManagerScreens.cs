@@ -9,4 +9,8 @@ public class ManagerScreens : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+    public void back()
+    {
+        Application.Quit();
+    }
 }
