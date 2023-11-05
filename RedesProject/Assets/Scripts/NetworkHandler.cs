@@ -29,7 +29,7 @@ public class NetworkHandler : MonoBehaviour
             GameMode = gameMode,
             Scene = sceneToLoad,
             SessionName = "GameSession",
-            SceneManager = sceneManager
+            //SceneManager = sceneManager
 
         });
 

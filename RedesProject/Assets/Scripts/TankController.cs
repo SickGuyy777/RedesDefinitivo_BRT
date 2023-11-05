@@ -15,7 +15,7 @@ public class TankController : MonoBehaviour
     public float ShootRateTime = 0;
     [Header("Values")]
 
-    [Networked(OnChanged = nameof(OnLifeChanged))]
+    //[Networked(OnChanged = nameof(OnLifeChanged))]
     [SerializeField] float _rotSpeed;
     [SerializeField] float _life { get; set; }
     [SerializeField] float _maxSpeed;
@@ -43,7 +43,6 @@ public class TankController : MonoBehaviour
     private void Update()
     {
         Movement();
-        RotHeadTank(_rootHeadTanq);
         if (Input.GetKeyDown(KeyCode.Mouse0) && currentAmmo > 0 && canShoot)
         {
             if (Time.time > ShootRateTime) //coldown de disparo
@@ -85,14 +84,6 @@ public class TankController : MonoBehaviour
         }
     }
 
-    public void RotHeadTank(Transform head)
-    {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 direction = mousePos - head.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        head.rotation = Quaternion.RotateTowards(head.rotation, Quaternion.Euler(0, 0, angle - 90), rootSpeedHead * Time.deltaTime);
-
-    }
 
     void Shoot(GameObject currentBullet)
     {
@@ -115,21 +106,21 @@ public class TankController : MonoBehaviour
 
         if (_life <= 0)
         {
-            Dead();
+            //Dead();
         }
     }
 
-    static void OnLifeChanged (Changed<PlayerModel> changed)
-    {
-        var behaviour = changed.Behaviour;
+    //static void OnLifeChanged (Changed<PlayerModel> changed)
+    //{
+    //    var behaviour = changed.Behaviour;
 
-        behaviour.OnlifeChange(behaviour._life / 100);
-    }
+    //    behaviour.OnlifeChange(behaviour._life / 100);
+    //}
 
-    void Dead()
-    {
-        Runner.Shutdown();
-    }
+    //void Dead()
+    //{
+    //    Runner.Shutdown();
+    //}
 
     void Timer()
     {

@@ -25,7 +25,7 @@ public class PlayerModel : NetworkBehaviour
 
     float _lastFiredTime;
 
-    NetworkInputData _networkInput;
+    //NetworkInputData _networkInput;
 
     public event Action<float> OnLifeChange = delegate { };
     public event Action OnDespawned = delegate { };
@@ -37,26 +37,26 @@ public class PlayerModel : NetworkBehaviour
 
     public override void Spawned()
     {
-        if (!LifeBarsHandler.Instance) return;
+        //if (!LifeBarsHandler.Instance) return;
 
-        LifeBarsHandler.Instance.SpawnLifebar(this);
+        //LifeBarsHandler.Instance.SpawnLifebar(this);
     }
 
     public override void FixedUpdateNetwork()
     {
-        if (GetInput(out _networkInput)) 
-        {
-            Move(_networkInput.xMovement);
+        //if (GetInput(out _networkInput)) 
+        //{
+        //    Move(_networkInput.xMovement);
 
-            if (_networkInput.isJumpPressed)
-            {
-                Jump();
-            }
-            else if (_networkInput.isFirePressed)
-            {
-                Shoot();
-            }
-        }
+        //    if (_networkInput.isJumpPressed)
+        //    {
+        //        Jump();
+        //    }
+        //    else if (_networkInput.isFirePressed)
+        //    {
+        //        Shoot();
+        //    }
+        //}
         
     }
 
@@ -97,7 +97,7 @@ public class PlayerModel : NetworkBehaviour
 
         StartCoroutine(FiringCooldown());
 
-        Runner.Spawn(_bulletPrefab, _shootPosition.position, transform.rotation);
+        //Runner.Spawn(_bulletPrefab, _shootPosition.position, transform.rotation);
     }
 
     IEnumerator FiringCooldown()

@@ -28,14 +28,14 @@ public class CharacterInputsHandler : MonoBehaviour
         }
     }
 
-    public NetworkInputData GetNetworkInputs()
-    {
-        _networkInputs.isFirePressed = _isFirePressed;
-        _isFirePressed = false;
+    //public NetworkInputData GetNetworkInputs()
+    //{
+    //    _networkInputs.isFirePressed = _isFirePressed;
+    //    _isFirePressed = false;
 
-        _networkInputs.isJumpPressed = _isJumpPressed;
-        _isJumpPressed = false;
+    //    _networkInputs.isJumpPressed = _isJumpPressed;
+    //    _isJumpPressed = false;
 
-        return _networkInputs;
-    }
+    //    return _networkInputs;
+    //}
 }
