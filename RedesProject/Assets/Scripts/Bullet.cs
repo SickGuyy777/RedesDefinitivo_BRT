@@ -1,24 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Bullet : MonoBehaviour
+using Fusion;
+public class Bullet : NetworkBehaviour
 {
     [SerializeField] float _maxTimerTime;
     [SerializeField] float _currentTimerTime;
 
-    Rigidbody2D _rb;
+    NetworkRigidbody2D _rb;
     Vector3 _lastVel;
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        _rb = GetComponent<NetworkRigidbody2D>();
         _currentTimerTime = _maxTimerTime;
     }
 
     private void Update()
     {
-        _lastVel = _rb.velocity;
+        _lastVel = _rb.Rigidbody.velocity;
 
         _currentTimerTime -= 1 * Time.deltaTime;
         if (_currentTimerTime <= 0)
@@ -31,7 +31,7 @@ public class Bullet : MonoBehaviour
         {
             var speed = _lastVel.magnitude;
             var dir = Vector3.Reflect(_lastVel.normalized, collision.contacts[0].normal);
-            _rb.velocity = dir * Mathf.Max(speed, 0f);
+            _rb.Rigidbody.velocity = dir * Mathf.Max(speed, 0f);
         }
     }
 

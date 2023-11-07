@@ -30,12 +30,20 @@ public class TankController : NetworkBehaviour
         currentAmmo = _maxAmmo;
         _currentTimerTime = _maxTimeTimer;
         currentAmmo = maxAmmo;
-        _networkInputs.canShoot = true;
+        //_networkInputs.canShoot = true;
+    }
+    public override void FixedUpdateNetwork()
+    {
+        if (GetInput(out _networkInputs))
+        {
+            Movement(_networkInputs._rotZ);
+        }
+        
+
     }
     private void Update()
     {
-        Movement();
-        if (Input.GetKeyDown(KeyCode.Mouse0) && currentAmmo > 0 && _networkInputs.canShoot)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && currentAmmo > 0 /*&&*/ /*_networkInputs.canShoot*/)
         {
             if (Time.time > ShootRateTime) //coldown de disparo
             {
@@ -49,28 +57,25 @@ public class TankController : NetworkBehaviour
             }
         }
         if (currentAmmo < maxAmmo)
-            Timer();
-
-        if (GetInput(out _networkInputs))
         {
-
+            Timer();
         }
     }
     void Shoot(GameObject currentBullet)
     {
         currentAmmo--;
-        var bullet = Instantiate(currentBullet, _shootPoint.position, transform.rotation);
-        bullet.GetComponent<Rigidbody2D>().velocity = _shootPoint.up * _bulletSpeed;
+        var bullet = Runner.Spawn(currentBullet, _shootPoint.position, transform.rotation)/*Instantiate(currentBullet, _shootPoint.position, transform.rotation)*/;
+        bullet.GetComponent<NetworkRigidbody2D>().Rigidbody.velocity = _shootPoint.up * _bulletSpeed;
     }
-    void Movement()
+    void Movement(float _rotZ)
     {
         float h = Input.GetAxisRaw("Horizontal");
         if (h < 0)
-            _networkInputs._rotZ += Time.deltaTime * _rotSpeed;
+            _rotZ += Time.deltaTime * _rotSpeed;
         else if (h > 0)
-            _networkInputs._rotZ += -Time.deltaTime * _rotSpeed;
+            _rotZ += -Time.deltaTime * _rotSpeed;
 
-        transform.rotation = Quaternion.Euler(0, 0, _networkInputs._rotZ);
+        transform.rotation = Quaternion.Euler(0, 0, _rotZ);
 
         float v = Input.GetAxisRaw("Vertical");
         if (v > 0)
