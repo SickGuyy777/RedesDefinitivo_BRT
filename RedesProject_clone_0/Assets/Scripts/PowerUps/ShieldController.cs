@@ -20,7 +20,6 @@ public class ShieldController : MonoBehaviour
         _currentTime -= 1 * Time.deltaTime;
         if (_currentTime <= 0)
         {
-            _player.canShoot = true;
             Destroy(this.gameObject);
         }
     }

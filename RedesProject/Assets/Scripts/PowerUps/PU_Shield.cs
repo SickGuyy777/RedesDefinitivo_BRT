@@ -12,7 +12,6 @@ public class PU_Shield : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             _player = collision.GetComponent<TankController>();
-            _player.canShoot = false;
             var inst = Instantiate(_shieldPrefab, _player.transform.position, _player.transform.rotation);
             inst.transform.parent = _player.transform;
             Destroy(this.gameObject);

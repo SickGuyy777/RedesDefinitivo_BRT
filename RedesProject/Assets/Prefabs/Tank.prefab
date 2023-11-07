@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 1341752625}
   - component: {fileID: 30658410825971198}
   - component: {fileID: 2155846611485964121}
+  - component: {fileID: 5568064173241473775}
   m_Layer: 8
   m_Name: Tank
   m_TagString: Player
@@ -335,23 +336,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba716d2d387ceb648b43b210cc74b487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
   _bulletPrefab: {fileID: 4483232015647703627, guid: c215ac02486f348499be0e924fc04648, type: 3}
   _missilePrefab: {fileID: 1264333931954213594, guid: 5fbec33f0f345514aa68052f1554e1a3, type: 3}
   _shootPoint: {fileID: 8092534998995235853}
   _bulletSpeed: 5.5
   homingMissile: 0
   laser: 0
-  canShoot: 0
+  _rotSpeed: 175
+  _movementSpeed: 0
+  _maxSpeed: 5
   shootRate: 0
   ShootRateTime: 0
-  _rotSpeed: 175
-  _maxSpeed: 5
   _maxAmmo: 5
   _maxTimeTimer: 5
-  _rootHeadTanq: {fileID: 4391709239027640580}
-  rootSpeedHead: 150
   maxAmmo: 5
   currentAmmo: 0
+  _currentTimerTime: 0
 --- !u!50 &1341752626
 Rigidbody2D:
   serializedVersion: 4
@@ -413,7 +414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectInterest: 1
   DefaultInterestGroups: []
-  DestroyWhenStateAuthorityLeaves: 0
+  DestroyWhenStateAuthorityLeaves: 1
   AllowStateAuthorityOverride: 1
   AoiPositionSource: {fileID: 0}
   Flags: 2305
@@ -421,6 +422,7 @@ MonoBehaviour:
     RawGuidValue: 60d199ab61d1ab941be10b3b5ece5367
   NestedObjects: []
   NetworkedBehaviours:
+  - {fileID: 7368160372169905717}
   - {fileID: 2155846611485964121}
   SimulationBehaviours: []
 --- !u!114 &2155846611485964121
@@ -436,3 +438,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+--- !u!114 &5568064173241473775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368160372169905716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7a0f3e7411bdd46afb3b711e6a2562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canshoot: 0

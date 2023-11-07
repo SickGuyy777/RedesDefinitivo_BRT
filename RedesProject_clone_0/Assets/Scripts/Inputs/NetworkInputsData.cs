@@ -1,8 +1,8 @@
 using Fusion;
 
-public class NetworkInputsData : INetworkInput
+public struct NetworkInputsData : INetworkInput
 {
-    public float xMovement;
-    public NetworkBool isJumpPressed;
+    public float _rotZ;
     public NetworkBool isFirePressed;
+    public NetworkBool canShoot;
 }

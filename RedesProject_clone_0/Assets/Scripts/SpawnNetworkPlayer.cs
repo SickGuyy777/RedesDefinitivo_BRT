@@ -19,6 +19,21 @@ public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
             runner.Spawn(_playerPrefab, Vector3.zero, Quaternion.identity, runner.LocalPlayer);
         }
     }
+
+    public void OnInput(NetworkRunner runner, NetworkInput input)
+    {
+        if (!NetworkPlayer.Local) return;
+
+        if (!_characterInputs)
+        {
+            _characterInputs = NetworkPlayer.Local.GetComponent<CharacterInputsHandler>();
+        }
+        else
+        {
+            input.Set(_characterInputs.GetNetworkInputs());
+        }
+    }
+
     #region callback que no usamos
     public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason)
     {
@@ -89,19 +104,7 @@ public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
         throw new NotImplementedException();
     }
     #endregion 
-    public void OnInput(NetworkRunner runner, NetworkInput input)
-    {
-        //if (!NetworkPlayer.Local) return;
 
-        //if (!_characterInputs)
-        //{
-        //    _characterInputs = NetworkPlayer.Local.GetComponent<CharacterInputsHandler>();
-        //}
-        //else
-        //{
-        //    input.Set(_characterInputs.GetNetworkInputs());
-        //}
-    }
 
 
 }

@@ -5,36 +5,24 @@ using UnityEngine;
 public class CharacterInputsHandler : MonoBehaviour
 {
     NetworkInputsData _networkInputs;
-
-    public bool _isJumpPressed;
-    public bool _isFirePressed;
-
+    public bool canshoot;
     private void Start()
-    {
+    { 
         _networkInputs = new NetworkInputsData();
     }
-
-    void Update()
+    private void Update()
     {
-        _networkInputs.xMovement = Input.GetAxis("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            _isFirePressed = true;
+            canshoot = true;
         }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            _isJumpPressed = true;
-        }
+
     }
-
     public NetworkInputsData GetNetworkInputs()
     {
-        _networkInputs.isFirePressed = _isFirePressed;
-        _isFirePressed = false;
-
-        _networkInputs.isJumpPressed = _isJumpPressed;
-        _isJumpPressed = false;
+        _networkInputs.canShoot = canshoot;
+        canshoot = false;
 
         return _networkInputs;
     }
