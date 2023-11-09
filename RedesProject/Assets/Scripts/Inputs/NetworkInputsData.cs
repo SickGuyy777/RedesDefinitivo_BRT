@@ -2,7 +2,7 @@ using Fusion;
 
 public struct NetworkInputsData : INetworkInput
 {
-    public float _rotZ;
-    public NetworkBool isFirePressed;
+    public float h;
+    public float v;
     public NetworkBool canShoot;
 }

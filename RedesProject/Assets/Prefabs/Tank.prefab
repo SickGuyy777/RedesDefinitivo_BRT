@@ -350,6 +350,7 @@ GameObject:
   - component: {fileID: 30658410825971198}
   - component: {fileID: 2155846611485964121}
   - component: {fileID: 5568064173241473775}
+  - component: {fileID: -2240989045148980561}
   m_Layer: 8
   m_Name: Tank
   m_TagString: Player
@@ -438,19 +439,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  _bulletPrefab: {fileID: 4483232015647703627, guid: c215ac02486f348499be0e924fc04648, type: 3}
-  _missilePrefab: {fileID: 1264333931954213594, guid: 5fbec33f0f345514aa68052f1554e1a3, type: 3}
+  _missilePrefab: {fileID: -852878414319007167, guid: c215ac02486f348499be0e924fc04648, type: 3}
   _shootPoint: {fileID: 8092534998995235853}
   _bulletSpeed: 5.5
   homingMissile: 0
   laser: 0
-  _rotSpeed: 300
+  _rotSpeed: 800
   _movementSpeed: 0
-  _maxSpeed: 15
-  shootRate: 0
-  ShootRateTime: 0
+  _maxSpeed: 50
   _maxAmmo: 5
-  _maxTimeTimer: 5
   maxAmmo: 5
   currentAmmo: 0
   _currentTimerTime: 0
@@ -525,6 +522,7 @@ MonoBehaviour:
   NetworkedBehaviours:
   - {fileID: 7368160372169905717}
   - {fileID: 2155846611485964121}
+  - {fileID: -2240989045148980561}
   SimulationBehaviours: []
 --- !u!114 &2155846611485964121
 MonoBehaviour:
@@ -552,3 +550,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canshoot: 0
+--- !u!114 &-2240989045148980561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7368160372169905716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1779252708, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  InterpolationSpace: 0
+  InterpolationTarget: {fileID: 7368160372169905715}
+  InterpolateErrorCorrection: 1
+  InterpolatedErrorCorrectionSettings:
+    MinRate: 3.3
+    MaxRate: 10
+    PosBlendStart: 0.25
+    PosBlendEnd: 1
+    PosMinCorrection: 0.025
+    PosTeleportDistance: 2
+    RotBlendStart: 0.1
+    RotBlendEnd: 0.5
+    RotTeleportRadians: 1.5
+  UseLegacySharedModeInterpolation: 0
+  TargetInterpolationDelay: 0.03

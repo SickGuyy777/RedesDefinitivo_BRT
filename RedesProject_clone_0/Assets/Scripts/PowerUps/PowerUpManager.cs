@@ -11,21 +11,27 @@ public class PowerUpManager : MonoBehaviour
     [SerializeField] float _maxTimerTime;
     float _currentTimerTime;
     int _puIndex;
+    public int currentBuffs;
+    public int maxBuffs;
 
     private void Start()
     {
         _currentTimerTime = _maxTimerTime;
+        maxBuffs = 5;
     }
 
     private void Update()
     {
         _currentTimerTime -= 1 * Time.deltaTime;
-        if(_currentTimerTime <= 0)
+        if (_currentTimerTime <= 0 /*&& currentBuffs>=maxBuffs*/)
         {
+
             _puIndex = Random.Range(0, _powerUps.Length);
             Instantiate(_powerUps[_puIndex].gameObject, new Vector3(Random.Range(-_boundWidth / 2, _boundWidth / 2), Random.Range(-_boundHeight / 2, _boundHeight / 2), 0), transform.rotation);
+            currentBuffs++;
             _currentTimerTime = _maxTimerTime;
         }
+
     }
 
     private void OnDrawGizmos()

@@ -8,68 +8,62 @@ public class TankController : NetworkBehaviour
 {
     //[Networked(OnChanged = nameof(OnLifeChanged))]
     [SerializeField] float _life { get; set; }
-    [SerializeField] GameObject _bulletPrefab, _missilePrefab;
+    [SerializeField] Bullet _missilePrefab;
     [SerializeField] Transform _shootPoint;
     NetworkInputsData _networkInputs;
-    public float _bulletSpeed;
     public bool homingMissile, laser;
+    public bool _canShoot { get; set; }
     public float _rotSpeed;
     public float _movementSpeed;
     public float _maxSpeed;
     public event Action<float> OnLifeChange = delegate { };
-    public float shootRate;//esto modifica el cooldown de disparo en el inspector
-    public float ShootRateTime;
     public int _maxAmmo;
-    public float _maxTimeTimer;
     public int maxAmmo;
     public int currentAmmo;
+    float _rotZ;
     public float _currentTimerTime;
+    float _lastFiredTime;
     private void Start()
     {
         _movementSpeed = _maxSpeed;
         currentAmmo = _maxAmmo;
-        _currentTimerTime = _maxTimeTimer;
         currentAmmo = maxAmmo;
-        //_networkInputs.canShoot = true;
     }
+
     public override void FixedUpdateNetwork()
     {
         if (GetInput(out _networkInputs))
         {
-            Movement(_networkInputs._rotZ);
-        }
-        
-
-    }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && currentAmmo > 0 /*&&*/ /*_networkInputs.canShoot*/)
-        {
-            if (Time.time > ShootRateTime) //coldown de disparo
+            Movement(_networkInputs.h, _networkInputs.v);
+            if (_networkInputs.canShoot && homingMissile == false)
             {
-                ShootRateTime = Time.time + shootRate;
-                if (homingMissile == true)
-                {
-                    homingMissile = false;
-                    Shoot(_missilePrefab);
-                }
-                else Shoot(_bulletPrefab);
+                Shoot(_missilePrefab);
             }
         }
-        if (currentAmmo < maxAmmo)
-        {
-            Timer();
-        }
+
+
     }
-    void Shoot(GameObject currentBullet)
+    void Shoot(Bullet _bulletPrefab)
     {
-        currentAmmo--;
-        var bullet = Runner.Spawn(currentBullet, _shootPoint.position, transform.rotation)/*Instantiate(currentBullet, _shootPoint.position, transform.rotation)*/;
-        bullet.GetComponent<NetworkRigidbody2D>().Rigidbody.velocity = _shootPoint.up * _bulletSpeed;
+        if (Time.time - _lastFiredTime < 0.15f) return;
+
+        _lastFiredTime = Time.time;
+
+        StartCoroutine(FiringCooldown());
+        Runner.Spawn(_bulletPrefab, _shootPoint.position, transform.rotation);
     }
-    void Movement(float _rotZ)
+    IEnumerator FiringCooldown()
     {
-        float h = Input.GetAxisRaw("Horizontal");
+        _canShoot = true;
+
+        yield return new WaitForSeconds(0.15f);
+
+        _canShoot = false;
+    }
+
+    void Movement(float h, float v)
+    {
+        h = Input.GetAxisRaw("Horizontal");
         if (h < 0)
             _rotZ += Time.deltaTime * _rotSpeed;
         else if (h > 0)
@@ -77,7 +71,7 @@ public class TankController : NetworkBehaviour
 
         transform.rotation = Quaternion.Euler(0, 0, _rotZ);
 
-        float v = Input.GetAxisRaw("Vertical");
+        v = Input.GetAxisRaw("Vertical");
         if (v > 0)
         {
             _movementSpeed = _maxSpeed;
@@ -87,16 +81,6 @@ public class TankController : NetworkBehaviour
         {
             _movementSpeed = _maxSpeed / 1.5f;
             transform.position += -transform.up * _movementSpeed * Time.deltaTime;
-        }
-    }
-
-    void Timer()
-    {
-        _currentTimerTime -= 1 * Time.deltaTime;
-        if (_currentTimerTime <= 0)
-        {
-            currentAmmo = maxAmmo;
-            _currentTimerTime = _maxTimeTimer;
         }
     }
     public void TakeDamage(float dmg)

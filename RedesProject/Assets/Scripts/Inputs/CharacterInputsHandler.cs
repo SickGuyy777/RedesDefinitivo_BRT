@@ -12,7 +12,8 @@ public class CharacterInputsHandler : MonoBehaviour
     }
     private void Update()
     {
-
+        _networkInputs.h = Input.GetAxis("Horizontal");
+        _networkInputs.v = Input.GetAxis("Vertical");
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             canshoot = true;

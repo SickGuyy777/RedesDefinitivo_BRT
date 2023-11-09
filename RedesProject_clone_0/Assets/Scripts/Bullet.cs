@@ -6,16 +6,23 @@ public class Bullet : NetworkBehaviour
 {
     [SerializeField] float _maxTimerTime;
     [SerializeField] float _currentTimerTime;
-
-    NetworkRigidbody2D _rb;
+    public float _bulletSpeed;
+    [SerializeField] NetworkRigidbody2D _rb;
     Vector3 _lastVel;
 
     private void Awake()
     {
-        _rb = GetComponent<NetworkRigidbody2D>();
         _currentTimerTime = _maxTimerTime;
     }
+    public override void FixedUpdateNetwork()
+    {
+        _rb = GetComponent<NetworkRigidbody2D>();
+        _rb.Rigidbody.velocity = transform.up * _bulletSpeed;
+    }
+    private void Start()
+    {
 
+    }
     private void Update()
     {
         _lastVel = _rb.Rigidbody.velocity;
