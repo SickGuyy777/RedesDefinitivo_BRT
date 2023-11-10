@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class ShieldController : MonoBehaviour
+using Fusion;
+public class ShieldController : NetworkBehaviour
 {
     [SerializeField] float _maxTime;
 

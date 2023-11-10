@@ -166,3 +166,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc4e414ce3749644b6779eeece741b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _yOffset: -1
+  _myFillableImage: {fileID: 4701377559337378336}

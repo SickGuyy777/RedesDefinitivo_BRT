@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PU_HomingMissile : MonoBehaviour
+using Fusion;
+public class PU_HomingMissile : NetworkBehaviour
 {
     [SerializeField] TankController _player;
 

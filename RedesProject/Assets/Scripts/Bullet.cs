@@ -19,10 +19,6 @@ public class Bullet : NetworkBehaviour
         _rb = GetComponent<NetworkRigidbody2D>();
         _rb.Rigidbody.velocity = transform.up * _bulletSpeed;
     }
-    private void Start()
-    {
-
-    }
     private void Update()
     {
         _lastVel = _rb.Rigidbody.velocity;
@@ -40,11 +36,23 @@ public class Bullet : NetworkBehaviour
             var dir = Vector3.Reflect(_lastVel.normalized, collision.contacts[0].normal);
             _rb.Rigidbody.velocity = dir * Mathf.Max(speed, 0f);
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Shield")
+        {
             Destroy(this.gameObject);
+        }
+
+        if (!Object || !Object.HasStateAuthority) return;
+
+        if (collision.TryGetComponent(out TankController enemy))
+        {
+            enemy.TakeDamage(1f);
+        }
+
+        Runner.Despawn(Object);
     }
 }

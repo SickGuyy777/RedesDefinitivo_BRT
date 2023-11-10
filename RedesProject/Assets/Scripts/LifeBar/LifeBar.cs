@@ -10,7 +10,7 @@ public class LifeBar : MonoBehaviour
     [SerializeField] float _yOffset;
     [SerializeField] Image _myFillableImage;
 
-    public void SetTarget(PlayerModel model)
+    public void SetTarget(TankController model)
     {
         _targetTransform = model.transform;
 
@@ -23,7 +23,7 @@ public class LifeBar : MonoBehaviour
     }
 
 
-    private void LateUpdate()
+    public void UpdatePosition()
     {
         transform.position = _targetTransform.position + Vector3.up * _yOffset;
     }

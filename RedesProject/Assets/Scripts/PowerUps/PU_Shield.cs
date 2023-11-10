@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PU_Shield : MonoBehaviour
+using Fusion;
+public class PU_Shield : NetworkBehaviour
 {
     [SerializeField] GameObject _shieldPrefab;
     [SerializeField] TankController _player;

@@ -17,7 +17,7 @@ public class NetworkHandler : MonoBehaviour
 
         var clientTask = InitializeGame(GameMode.Shared, SceneManager.GetActiveScene().buildIndex);
     }
-
+    
     Task InitializeGame(GameMode gameMode, SceneRef sceneToLoad)
     {
         var sceneObject = _runner.GetComponent<NetworkSceneManagerDefault>();
@@ -27,12 +27,13 @@ public class NetworkHandler : MonoBehaviour
             GameMode = gameMode,
             Scene = sceneToLoad,
             SessionName = "GameSession",
-            SceneManager = sceneObject
+            SceneManager = sceneObject ,
 
         });
 
-
+        
     }
 
- 
+
+
 }

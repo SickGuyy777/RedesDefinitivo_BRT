@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4915693322297968559}
   - component: {fileID: -3382999994983236991}
   - component: {fileID: 210470432151850047}
+  - component: {fileID: 5259032613728143691}
   m_Layer: 10
   m_Name: ShieldPU
   m_TagString: Untagged
@@ -124,6 +125,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcd08e0950776445837b0d2458ff3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
   _shieldPrefab: {fileID: 3010964611442385898, guid: 69098bb678fe77a4eb373fa05e19e8e2, type: 3}
   _player: {fileID: 0}
   Buffs: {fileID: 4580288873948119247, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
+--- !u!114 &5259032613728143691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386719547851879974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 2305
+  NetworkGuid:
+    RawGuidValue: a4e5b471ed543ae40904e5dba404fd0a
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 210470432151850047}
+  SimulationBehaviours: []

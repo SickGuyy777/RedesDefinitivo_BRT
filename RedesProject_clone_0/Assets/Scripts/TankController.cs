@@ -6,10 +6,12 @@ using Fusion;
 
 public class TankController : NetworkBehaviour
 {
-    //[Networked(OnChanged = nameof(OnLifeChanged))]
+    [Networked(OnChanged = nameof(OnLifeChanged))]
     [SerializeField] float _life { get; set; }
+
     [SerializeField] Bullet _missilePrefab;
     [SerializeField] Transform _shootPoint;
+    [SerializeField] NetworkRigidbody2D _MyRb;
     NetworkInputsData _networkInputs;
     public bool homingMissile, laser;
     public bool _canShoot { get; set; }
@@ -17,6 +19,7 @@ public class TankController : NetworkBehaviour
     public float _movementSpeed;
     public float _maxSpeed;
     public event Action<float> OnLifeChange = delegate { };
+    public event Action OnDespawned = delegate { };
     public int _maxAmmo;
     public int maxAmmo;
     public int currentAmmo;
@@ -97,19 +100,27 @@ public class TankController : NetworkBehaviour
 
         if (_life <= 0)
         {
-            //Dead();
+            Dead();
         }
     }
+    public override void Spawned()
+    {
+        if (!LifeBarHandler.Instance) return;
 
-    //static void OnLifeChanged(Changed<TankController> changed)
-    //{
-    //    var behaviour = changed.Behaviour;
+        LifeBarHandler.Instance.SpawnLifeBar(this);
+    }
+    static void OnLifeChanged(Changed<TankController> changed)
+    {
+        var behaviour = changed.Behaviour;
+        behaviour.OnLifeChange(behaviour._life / 100);
+    }
 
-    //    behaviour.OnlifeChange(behaviour._life / 100);
-    //}
-
-    //void Dead()
-    //{
-    //    Runner.Shutdown();
-    //}
+    void Dead()
+    {
+        Runner.Shutdown();
+    }
+    public override void Despawned(NetworkRunner runner, bool hasState)
+    {
+        OnDespawned();
+    }
 }
