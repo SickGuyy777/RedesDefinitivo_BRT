@@ -45,8 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _powerUps:
-  - {fileID: 3997675479411194268, guid: 6da7ca08826aa354d856f7dd2c095bae, type: 3}
-  - {fileID: 9204010190620000705, guid: b828f8da0a1cb1949b4b6ffac4096b9a, type: 3}
   - {fileID: 7386719547851879974, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
   _boundWidth: 34.5
   _boundHeight: 18

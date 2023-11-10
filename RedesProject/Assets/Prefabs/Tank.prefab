@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  __life: 100
+  __life: 10
   _missilePrefab: {fileID: -852878414319007167, guid: c215ac02486f348499be0e924fc04648, type: 3}
   _shootPoint: {fileID: 8092534998995235853}
   _MyRb: {fileID: -2240989045148980561}

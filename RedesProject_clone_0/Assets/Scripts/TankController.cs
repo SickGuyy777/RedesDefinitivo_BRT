@@ -43,8 +43,6 @@ public class TankController : NetworkBehaviour
                 Shoot(_missilePrefab);
             }
         }
-
-
     }
     void Shoot(Bullet _bulletPrefab)
     {
