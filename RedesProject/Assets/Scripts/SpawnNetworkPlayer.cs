@@ -4,11 +4,11 @@ using UnityEngine;
 using Fusion;
 using Fusion.Sockets;
 using System;
-
+using Photon.Pun;
 public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
 {
     [SerializeField] NetworkPlayer _playerPrefab;
-
+    [SerializeField] GameManager game;
     CharacterInputsHandler _characterInputs;
 
     public void OnConnectedToServer(NetworkRunner runner)
@@ -17,6 +17,7 @@ public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
         {
             Debug.Log("[Custom Msg] On Connected To Server - Spawning Player as Local...");
             runner.Spawn(_playerPrefab, Vector3.zero, Quaternion.identity, runner.LocalPlayer);
+            game.tanques.Add(_playerPrefab);
         }
     }
 
