@@ -9,7 +9,16 @@ public class PU_HomingMissile : NetworkBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _player = collision.GetComponent<TankController>();
-        _player.homingMissile = true;
-        Destroy(this.gameObject);
+        if (collision.gameObject.tag == "Player")
+        {
+            _player._networkInputs.RevoteMissile = true;
+        }
+        if (!Object || !Object.HasStateAuthority) return;
+
+        Desaparesco();
+    }
+    public void Desaparesco()
+    {
+        Runner.Despawn(Object);
     }
 }

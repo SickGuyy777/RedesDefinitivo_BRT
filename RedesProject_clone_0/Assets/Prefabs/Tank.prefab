@@ -203,7 +203,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -439,18 +439,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  __life: 10
-  _missilePrefab: {fileID: -852878414319007167, guid: c215ac02486f348499be0e924fc04648, type: 3}
+  __life: 3
+  _missilePrefab: {fileID: 4483232015647703627, guid: c215ac02486f348499be0e924fc04648, type: 3}
+  RevoteBullet: {fileID: 1981489984864309252, guid: 1cc4633c779b1e74fbc27ef4f2e05b79, type: 3}
+  _shieldPrefab: {fileID: 6396859045874315322, guid: 69098bb678fe77a4eb373fa05e19e8e2, type: 3}
+  shieldPrefab: {fileID: 6495415878806540699, guid: 69098bb678fe77a4eb373fa05e19e8e2, type: 3}
   _shootPoint: {fileID: 8092534998995235853}
   _MyRb: {fileID: -2240989045148980561}
-  homingMissile: 0
-  laser: 0
   _rotSpeed: 800
   _movementSpeed: 0
   _maxSpeed: 25
-  _maxAmmo: 5
-  maxAmmo: 5
-  currentAmmo: 0
   _currentTimerTime: 0
 --- !u!50 &1341752626
 Rigidbody2D:
@@ -538,6 +536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  lose: 0
 --- !u!114 &5568064173241473775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canshoot: 0
+  RevoteMisile: 0
 --- !u!114 &-2240989045148980561
 MonoBehaviour:
   m_ObjectHideFlags: 0

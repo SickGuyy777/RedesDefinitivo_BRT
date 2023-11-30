@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1775624}
   - component: {fileID: 1775623}
   m_Layer: 0
-  m_Name: Square (163)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,9 +244,8 @@ GameObject:
   m_Component:
   - component: {fileID: 11064454}
   - component: {fileID: 11064456}
-  - component: {fileID: 11064455}
   m_Layer: 0
-  m_Name: Square (237)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,32 +266,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 240
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &11064455
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11064453}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &11064456
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -357,7 +330,7 @@ GameObject:
   - component: {fileID: 14800441}
   - component: {fileID: 14800440}
   m_Layer: 0
-  m_Name: Square (253)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,7 +441,7 @@ GameObject:
   - component: {fileID: 16446815}
   - component: {fileID: 16446814}
   m_Layer: 0
-  m_Name: Square (249)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +551,7 @@ GameObject:
   - component: {fileID: 32293873}
   - component: {fileID: 32293874}
   m_Layer: 0
-  m_Name: Square (78)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -661,9 +634,8 @@ GameObject:
   m_Component:
   - component: {fileID: 47085456}
   - component: {fileID: 47085458}
-  - component: {fileID: 47085457}
   m_Layer: 0
-  m_Name: Square (199)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -684,32 +656,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 202
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &47085457
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47085455}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &47085458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -774,7 +720,7 @@ GameObject:
   - component: {fileID: 70707720}
   - component: {fileID: 70707719}
   m_Layer: 0
-  m_Name: Square (251)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -885,7 +831,7 @@ GameObject:
   - component: {fileID: 101264952}
   - component: {fileID: 101264951}
   m_Layer: 0
-  m_Name: Square (179)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +941,7 @@ GameObject:
   - component: {fileID: 101821555}
   - component: {fileID: 101821556}
   m_Layer: 0
-  m_Name: Square (106)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1079,7 +1025,7 @@ GameObject:
   - component: {fileID: 120296154}
   - component: {fileID: 120296155}
   m_Layer: 0
-  m_Name: Square (30)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1162,9 +1108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 127746304}
   - component: {fileID: 127746306}
-  - component: {fileID: 127746305}
   m_Layer: 0
-  m_Name: Square (272)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,32 +1130,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 274
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &127746305
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127746303}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &127746306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1275,7 +1194,7 @@ GameObject:
   - component: {fileID: 136575160}
   - component: {fileID: 136575159}
   m_Layer: 0
-  m_Name: Square (252)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1386,7 +1305,7 @@ GameObject:
   - component: {fileID: 154954363}
   - component: {fileID: 154954362}
   m_Layer: 0
-  m_Name: Square (210)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1497,7 +1416,7 @@ GameObject:
   - component: {fileID: 158036464}
   - component: {fileID: 158036463}
   m_Layer: 0
-  m_Name: Square (212)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1607,7 +1526,7 @@ GameObject:
   - component: {fileID: 161087278}
   - component: {fileID: 161087279}
   m_Layer: 0
-  m_Name: Square (33)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1692,7 +1611,7 @@ GameObject:
   - component: {fileID: 171369657}
   - component: {fileID: 171369656}
   m_Layer: 0
-  m_Name: Square (182)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1802,7 +1721,7 @@ GameObject:
   - component: {fileID: 172107374}
   - component: {fileID: 172107375}
   m_Layer: 0
-  m_Name: Square (15)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1887,7 +1806,7 @@ GameObject:
   - component: {fileID: 180598450}
   - component: {fileID: 180598449}
   m_Layer: 0
-  m_Name: Square (155)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1996,9 +1915,8 @@ GameObject:
   m_Component:
   - component: {fileID: 181979447}
   - component: {fileID: 181979449}
-  - component: {fileID: 181979448}
   m_Layer: 0
-  m_Name: Square (116)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2019,32 +1937,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &181979448
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181979446}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &181979449
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2108,7 +2000,7 @@ GameObject:
   - component: {fileID: 182020551}
   - component: {fileID: 182020552}
   m_Layer: 0
-  m_Name: Square (75)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2191,9 +2083,8 @@ GameObject:
   m_Component:
   - component: {fileID: 191551874}
   - component: {fileID: 191551876}
-  - component: {fileID: 191551875}
   m_Layer: 0
-  m_Name: Square (193)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2214,32 +2105,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 196
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &191551875
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191551873}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &191551876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2302,9 +2167,8 @@ GameObject:
   m_Component:
   - component: {fileID: 199089691}
   - component: {fileID: 199089693}
-  - component: {fileID: 199089692}
   m_Layer: 0
-  m_Name: Square (200)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2325,32 +2189,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 203
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &199089692
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199089690}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &199089693
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2415,7 +2253,7 @@ GameObject:
   - component: {fileID: 212460708}
   - component: {fileID: 212460707}
   m_Layer: 0
-  m_Name: Square (208)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2525,7 +2363,7 @@ GameObject:
   - component: {fileID: 212915483}
   - component: {fileID: 212915484}
   m_Layer: 0
-  m_Name: Square (42)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2609,7 +2447,7 @@ GameObject:
   - component: {fileID: 212917297}
   - component: {fileID: 212917298}
   m_Layer: 0
-  m_Name: Square (70)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2694,7 +2532,7 @@ GameObject:
   - component: {fileID: 214188484}
   - component: {fileID: 214188483}
   m_Layer: 0
-  m_Name: Square (246)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2805,7 +2643,7 @@ GameObject:
   - component: {fileID: 214660007}
   - component: {fileID: 214660006}
   m_Layer: 0
-  m_Name: Square (276)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2819,7 +2657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214660004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0430002, y: -4.4400005, z: 0.021509388}
+  m_LocalPosition: {x: 2.0430002, y: -4.24, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2915,7 +2753,7 @@ GameObject:
   - component: {fileID: 217759727}
   - component: {fileID: 217759728}
   m_Layer: 0
-  m_Name: Square (120)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2999,7 +2837,7 @@ GameObject:
   - component: {fileID: 230454141}
   - component: {fileID: 230454142}
   m_Layer: 0
-  m_Name: Square (110)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3084,7 +2922,7 @@ GameObject:
   - component: {fileID: 243053466}
   - component: {fileID: 243053465}
   m_Layer: 0
-  m_Name: Square (189)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3195,7 +3033,7 @@ GameObject:
   - component: {fileID: 245678811}
   - component: {fileID: 245678810}
   m_Layer: 0
-  m_Name: Square (250)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3305,7 +3143,7 @@ GameObject:
   - component: {fileID: 251939706}
   - component: {fileID: 251939707}
   m_Layer: 0
-  m_Name: Square (109)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3389,7 +3227,7 @@ GameObject:
   - component: {fileID: 255846722}
   - component: {fileID: 255846723}
   m_Layer: 0
-  m_Name: Square (71)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3474,7 +3312,7 @@ GameObject:
   - component: {fileID: 266683088}
   - component: {fileID: 266683087}
   m_Layer: 0
-  m_Name: Square (171)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3584,7 +3422,7 @@ GameObject:
   - component: {fileID: 284987636}
   - component: {fileID: 284987637}
   m_Layer: 0
-  m_Name: Square (118)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3669,7 +3507,7 @@ GameObject:
   - component: {fileID: 288710059}
   - component: {fileID: 288710058}
   m_Layer: 0
-  m_Name: Square (175)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3779,7 +3617,7 @@ GameObject:
   - component: {fileID: 289013249}
   - component: {fileID: 289013250}
   m_Layer: 0
-  m_Name: Square (17)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3864,7 +3702,7 @@ GameObject:
   - component: {fileID: 299515269}
   - component: {fileID: 299515268}
   m_Layer: 0
-  m_Name: Square (186)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3975,7 +3813,7 @@ GameObject:
   - component: {fileID: 309951499}
   - component: {fileID: 309951498}
   m_Layer: 0
-  m_Name: Square (151)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,9 +3922,8 @@ GameObject:
   m_Component:
   - component: {fileID: 317281334}
   - component: {fileID: 317281336}
-  - component: {fileID: 317281335}
   m_Layer: 0
-  m_Name: Square (206)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4107,32 +3944,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 209
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &317281335
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 317281333}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &317281336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4198,7 +4009,7 @@ GameObject:
   - component: {fileID: 320055995}
   m_Layer: 0
   m_Name: Wall (1)
-  m_TagString: Wall
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4308,7 +4119,7 @@ GameObject:
   - component: {fileID: 331764178}
   - component: {fileID: 331764177}
   m_Layer: 0
-  m_Name: Square (165)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4418,7 +4229,7 @@ GameObject:
   - component: {fileID: 332138150}
   - component: {fileID: 332138151}
   m_Layer: 0
-  m_Name: Square (63)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4501,9 +4312,8 @@ GameObject:
   m_Component:
   - component: {fileID: 346484692}
   - component: {fileID: 346484694}
-  - component: {fileID: 346484693}
   m_Layer: 0
-  m_Name: Square (132)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4524,32 +4334,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &346484693
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 346484691}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &346484694
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4613,7 +4397,7 @@ GameObject:
   - component: {fileID: 353386694}
   - component: {fileID: 353386695}
   m_Layer: 0
-  m_Name: Square (86)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4699,7 +4483,7 @@ GameObject:
   - component: {fileID: 358269936}
   m_Layer: 0
   m_Name: Wall (3)
-  m_TagString: Wall
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4877,7 +4661,7 @@ GameObject:
   - component: {fileID: 370220425}
   - component: {fileID: 370220424}
   m_Layer: 0
-  m_Name: Square (218)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4988,7 +4772,7 @@ GameObject:
   - component: {fileID: 370736048}
   - component: {fileID: 370736047}
   m_Layer: 0
-  m_Name: Square (244)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5098,7 +4882,7 @@ GameObject:
   - component: {fileID: 374124819}
   - component: {fileID: 374124820}
   m_Layer: 0
-  m_Name: Square (53)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5183,7 +4967,7 @@ GameObject:
   - component: {fileID: 395002793}
   - component: {fileID: 395002792}
   m_Layer: 0
-  m_Name: Square (248)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5294,7 +5078,7 @@ GameObject:
   - component: {fileID: 404589837}
   - component: {fileID: 404589836}
   m_Layer: 0
-  m_Name: Square (219)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5404,7 +5188,7 @@ GameObject:
   - component: {fileID: 410963437}
   - component: {fileID: 410963438}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5488,7 +5272,7 @@ GameObject:
   - component: {fileID: 411572045}
   - component: {fileID: 411572046}
   m_Layer: 0
-  m_Name: Square (46)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5573,7 +5357,7 @@ GameObject:
   - component: {fileID: 413562781}
   - component: {fileID: 413562780}
   m_Layer: 0
-  m_Name: Square (161)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5682,9 +5466,9 @@ GameObject:
   m_Component:
   - component: {fileID: 414019719}
   - component: {fileID: 414019721}
-  - component: {fileID: 414019720}
+  - component: {fileID: 414019722}
   m_Layer: 0
-  m_Name: Square (234)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5705,32 +5489,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 236
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &414019720
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414019718}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &414019721
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5783,6 +5541,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &414019722
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414019718}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.92816997}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.84, y: 14.894388}
+  m_EdgeRadius: 0
 --- !u!1 &418861944
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,7 +5579,7 @@ GameObject:
   - component: {fileID: 418861947}
   - component: {fileID: 418861946}
   m_Layer: 0
-  m_Name: Square (144)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5906,7 +5690,7 @@ GameObject:
   - component: {fileID: 429228851}
   - component: {fileID: 429228850}
   m_Layer: 0
-  m_Name: Square (224)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6016,7 +5800,7 @@ GameObject:
   - component: {fileID: 432415855}
   - component: {fileID: 432415856}
   m_Layer: 0
-  m_Name: Square (20)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6100,7 +5884,7 @@ GameObject:
   - component: {fileID: 433743320}
   - component: {fileID: 433743321}
   m_Layer: 0
-  m_Name: Square (49)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6184,7 +5968,7 @@ GameObject:
   - component: {fileID: 439856340}
   - component: {fileID: 439856341}
   m_Layer: 0
-  m_Name: Square (58)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6267,9 +6051,9 @@ GameObject:
   m_Component:
   - component: {fileID: 455766640}
   - component: {fileID: 455766642}
-  - component: {fileID: 455766641}
+  - component: {fileID: 455766643}
   m_Layer: 0
-  m_Name: Square (129)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6290,32 +6074,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &455766641
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455766639}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &455766642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6368,6 +6126,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &455766643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455766639}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.018243313}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.84, y: 5.6580276}
+  m_EdgeRadius: 0
 --- !u!1 &467822616
 GameObject:
   m_ObjectHideFlags: 0
@@ -6380,7 +6164,7 @@ GameObject:
   - component: {fileID: 467822619}
   - component: {fileID: 467822618}
   m_Layer: 0
-  m_Name: Square (184)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6490,7 +6274,7 @@ GameObject:
   - component: {fileID: 477462239}
   - component: {fileID: 477462240}
   m_Layer: 0
-  m_Name: Square (97)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6573,9 +6357,9 @@ GameObject:
   m_Component:
   - component: {fileID: 485560310}
   - component: {fileID: 485560312}
-  - component: {fileID: 485560311}
+  - component: {fileID: 485560313}
   m_Layer: 0
-  m_Name: Square (139)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6596,32 +6380,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &485560311
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485560309}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &485560312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6674,6 +6432,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &485560313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485560309}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.058538914, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.986904, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &486298862
 GameObject:
   m_ObjectHideFlags: 0
@@ -6698,7 +6482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486298862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2822621, y: -0.21276431, z: -0.021509388}
+  m_LocalPosition: {x: 2.8622622, y: -0.21276431, z: -0.021509388}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6991,7 +6775,7 @@ Transform:
   - {fileID: 939561489}
   - {fileID: 601484180}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &492807853
 GameObject:
@@ -7004,7 +6788,7 @@ GameObject:
   - component: {fileID: 492807854}
   - component: {fileID: 492807855}
   m_Layer: 0
-  m_Name: Square (32)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7088,7 +6872,7 @@ GameObject:
   - component: {fileID: 493235189}
   - component: {fileID: 493235190}
   m_Layer: 0
-  m_Name: Square (9)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7198,7 +6982,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494336663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.58, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7217,7 +7001,7 @@ GameObject:
   - component: {fileID: 498711795}
   - component: {fileID: 498711796}
   m_Layer: 0
-  m_Name: Square (80)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7300,9 +7084,8 @@ GameObject:
   m_Component:
   - component: {fileID: 499553415}
   - component: {fileID: 499553417}
-  - component: {fileID: 499553416}
   m_Layer: 0
-  m_Name: Square (123)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7323,32 +7106,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 141
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &499553416
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499553414}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &499553417
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7431,6 +7188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tanques: []
+  obj: {fileID: 0}
 --- !u!4 &500986393
 Transform:
   m_ObjectHideFlags: 0
@@ -7444,7 +7202,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509844257
 GameObject:
@@ -7457,7 +7215,7 @@ GameObject:
   - component: {fileID: 509844258}
   - component: {fileID: 509844259}
   m_Layer: 0
-  m_Name: Square (113)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7541,7 +7299,7 @@ GameObject:
   - component: {fileID: 512672242}
   - component: {fileID: 512672243}
   m_Layer: 0
-  m_Name: Square (47)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7624,9 +7382,8 @@ GameObject:
   m_Component:
   - component: {fileID: 519192711}
   - component: {fileID: 519192713}
-  - component: {fileID: 519192712}
   m_Layer: 0
-  m_Name: Square (125)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7647,32 +7404,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 143
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &519192712
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519192710}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &519192713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7820,7 +7551,7 @@ GameObject:
   - component: {fileID: 527110745}
   - component: {fileID: 527110746}
   m_Layer: 0
-  m_Name: Square (77)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7904,7 +7635,7 @@ GameObject:
   - component: {fileID: 528728900}
   - component: {fileID: 528728901}
   m_Layer: 0
-  m_Name: Square (87)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7989,7 +7720,7 @@ GameObject:
   - component: {fileID: 546837691}
   - component: {fileID: 546837690}
   m_Layer: 0
-  m_Name: Square (150)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8100,7 +7831,7 @@ GameObject:
   - component: {fileID: 557410153}
   - component: {fileID: 557410152}
   m_Layer: 0
-  m_Name: Square (174)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8210,7 +7941,7 @@ GameObject:
   - component: {fileID: 562551253}
   - component: {fileID: 562551254}
   m_Layer: 0
-  m_Name: Square (28)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8294,7 +8025,7 @@ GameObject:
   - component: {fileID: 577893109}
   - component: {fileID: 577893110}
   m_Layer: 0
-  m_Name: Square (21)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8377,9 +8108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 601484180}
   - component: {fileID: 601484182}
-  - component: {fileID: 601484181}
   m_Layer: 0
-  m_Name: Square (283)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8393,39 +8123,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601484179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.141, y: -5.580001, z: 0.021509388}
+  m_LocalPosition: {x: 6.141, y: -5.38, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 486298863}
   m_RootOrder: 287
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &601484181
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601484179}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &601484182
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8488,9 +8192,8 @@ GameObject:
   m_Component:
   - component: {fileID: 607246549}
   - component: {fileID: 607246551}
-  - component: {fileID: 607246550}
   m_Layer: 0
-  m_Name: Square (201)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8511,32 +8214,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 204
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &607246550
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607246548}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &607246551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8601,7 +8278,7 @@ GameObject:
   - component: {fileID: 610203027}
   - component: {fileID: 610203026}
   m_Layer: 0
-  m_Name: Square (247)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8711,7 +8388,7 @@ GameObject:
   - component: {fileID: 611824001}
   - component: {fileID: 611824002}
   m_Layer: 0
-  m_Name: Square (14)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8794,9 +8471,8 @@ GameObject:
   m_Component:
   - component: {fileID: 616236288}
   - component: {fileID: 616236290}
-  - component: {fileID: 616236289}
   m_Layer: 0
-  m_Name: Square (280)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8810,39 +8486,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616236287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2469997, y: -4.4400005, z: 0.021509388}
+  m_LocalPosition: {x: 7.2469997, y: -4.24, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 486298863}
   m_RootOrder: 284
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &616236289
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616236287}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &616236290
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8905,9 +8555,8 @@ GameObject:
   m_Component:
   - component: {fileID: 616532586}
   - component: {fileID: 616532588}
-  - component: {fileID: 616532587}
   m_Layer: 0
-  m_Name: Square (130)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8928,32 +8577,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &616532587
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616532585}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &616532588
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9017,7 +8640,7 @@ GameObject:
   - component: {fileID: 619455164}
   - component: {fileID: 619455165}
   m_Layer: 0
-  m_Name: Square (79)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9100,9 +8723,8 @@ GameObject:
   m_Component:
   - component: {fileID: 631628747}
   - component: {fileID: 631628749}
-  - component: {fileID: 631628748}
   m_Layer: 0
-  m_Name: Square (236)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9123,32 +8745,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 238
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &631628748
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631628746}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &631628749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9212,7 +8808,7 @@ GameObject:
   - component: {fileID: 642353457}
   - component: {fileID: 642353458}
   m_Layer: 0
-  m_Name: Square (99)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9297,7 +8893,7 @@ GameObject:
   - component: {fileID: 647900503}
   - component: {fileID: 647900502}
   m_Layer: 0
-  m_Name: Square (213)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9406,9 +9002,9 @@ GameObject:
   m_Component:
   - component: {fileID: 651454903}
   - component: {fileID: 651454905}
-  - component: {fileID: 651454904}
+  - component: {fileID: 651454906}
   m_Layer: 0
-  m_Name: Square (266)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9429,32 +9025,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 269
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &651454904
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651454902}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &651454905
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9507,6 +9077,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &651454906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651454902}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.9130502, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.6661005, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &678762058
 GameObject:
   m_ObjectHideFlags: 0
@@ -9519,7 +9115,7 @@ GameObject:
   - component: {fileID: 678762061}
   - component: {fileID: 678762060}
   m_Layer: 0
-  m_Name: Square (241)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9629,7 +9225,7 @@ GameObject:
   - component: {fileID: 686634273}
   - component: {fileID: 686634274}
   m_Layer: 0
-  m_Name: Square (121)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9712,9 +9308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 706145321}
   - component: {fileID: 706145323}
-  - component: {fileID: 706145322}
   m_Layer: 0
-  m_Name: Square (261)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9735,32 +9330,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 265
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &706145322
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706145320}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &706145323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9824,7 +9393,7 @@ GameObject:
   - component: {fileID: 706867351}
   - component: {fileID: 706867352}
   m_Layer: 0
-  m_Name: Square (82)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9908,7 +9477,7 @@ GameObject:
   - component: {fileID: 708673952}
   - component: {fileID: 708673953}
   m_Layer: 0
-  m_Name: Square (111)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9992,7 +9561,7 @@ GameObject:
   - component: {fileID: 709345978}
   - component: {fileID: 709345979}
   m_Layer: 0
-  m_Name: Square (36)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10076,7 +9645,7 @@ GameObject:
   - component: {fileID: 720629278}
   - component: {fileID: 720629279}
   m_Layer: 0
-  m_Name: Square (73)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10159,9 +9728,9 @@ GameObject:
   m_Component:
   - component: {fileID: 721951958}
   - component: {fileID: 721951960}
-  - component: {fileID: 721951959}
+  - component: {fileID: 721951961}
   m_Layer: 0
-  m_Name: Square (267)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10182,32 +9751,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 276
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &721951959
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721951957}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &721951960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10260,6 +9803,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &721951961
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721951957}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.01799512}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.84, y: 9.277863}
+  m_EdgeRadius: 0
 --- !u!1 &728056508
 GameObject:
   m_ObjectHideFlags: 0
@@ -10358,7 +9927,7 @@ GameObject:
   - component: {fileID: 736325707}
   - component: {fileID: 736325708}
   m_Layer: 0
-  m_Name: Square (105)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10441,9 +10010,8 @@ GameObject:
   m_Component:
   - component: {fileID: 750332320}
   - component: {fileID: 750332322}
-  - component: {fileID: 750332321}
   m_Layer: 0
-  m_Name: Square (196)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10464,32 +10032,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 199
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &750332321
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750332319}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &750332322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10554,7 +10096,7 @@ GameObject:
   - component: {fileID: 765728656}
   - component: {fileID: 765728655}
   m_Layer: 0
-  m_Name: Square (221)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10663,9 +10205,8 @@ GameObject:
   m_Component:
   - component: {fileID: 771754338}
   - component: {fileID: 771754340}
-  - component: {fileID: 771754339}
   m_Layer: 0
-  m_Name: Square (259)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10686,32 +10227,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 263
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &771754339
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771754337}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &771754340
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10775,7 +10290,7 @@ GameObject:
   - component: {fileID: 774854838}
   - component: {fileID: 774854839}
   m_Layer: 0
-  m_Name: Square (108)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10858,9 +10373,8 @@ GameObject:
   m_Component:
   - component: {fileID: 775728404}
   - component: {fileID: 775728406}
-  - component: {fileID: 775728405}
   m_Layer: 0
-  m_Name: Square (191)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10881,32 +10395,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 194
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &775728405
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775728403}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &775728406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10969,9 +10457,8 @@ GameObject:
   m_Component:
   - component: {fileID: 779694111}
   - component: {fileID: 779694113}
-  - component: {fileID: 779694112}
   m_Layer: 0
-  m_Name: Square (231)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10992,32 +10479,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 233
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &779694112
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 779694110}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &779694113
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11081,7 +10542,7 @@ GameObject:
   - component: {fileID: 785300496}
   - component: {fileID: 785300497}
   m_Layer: 0
-  m_Name: Square (35)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11164,9 +10625,8 @@ GameObject:
   m_Component:
   - component: {fileID: 789232039}
   - component: {fileID: 789232041}
-  - component: {fileID: 789232040}
   m_Layer: 0
-  m_Name: Square (262)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11187,32 +10647,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 266
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &789232040
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789232038}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &789232041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11277,7 +10711,7 @@ GameObject:
   - component: {fileID: 791618567}
   - component: {fileID: 791618566}
   m_Layer: 0
-  m_Name: Square (214)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11387,7 +10821,7 @@ GameObject:
   - component: {fileID: 812529093}
   - component: {fileID: 812529094}
   m_Layer: 0
-  m_Name: Square (34)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11470,9 +10904,9 @@ GameObject:
   m_Component:
   - component: {fileID: 819167405}
   - component: {fileID: 819167407}
-  - component: {fileID: 819167406}
+  - component: {fileID: 819167408}
   m_Layer: 0
-  m_Name: Square (260)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11493,32 +10927,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 264
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &819167406
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819167404}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &819167407
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11571,6 +10979,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &819167408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819167404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.9564918, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.3571463, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &827126406
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,7 +11017,7 @@ GameObject:
   - component: {fileID: 827126409}
   - component: {fileID: 827126408}
   m_Layer: 0
-  m_Name: Square (215)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11692,9 +11126,8 @@ GameObject:
   m_Component:
   - component: {fileID: 857072290}
   - component: {fileID: 857072292}
-  - component: {fileID: 857072291}
   m_Layer: 0
-  m_Name: Square (271)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11715,32 +11148,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 273
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &857072291
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857072289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &857072292
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11805,7 +11212,7 @@ GameObject:
   - component: {fileID: 857489395}
   - component: {fileID: 857489394}
   m_Layer: 0
-  m_Name: Square (143)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11914,9 +11321,8 @@ GameObject:
   m_Component:
   - component: {fileID: 857533301}
   - component: {fileID: 857533303}
-  - component: {fileID: 857533302}
   m_Layer: 0
-  m_Name: Square (202)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11937,32 +11343,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 205
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &857533302
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857533300}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &857533303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12027,7 +11407,7 @@ GameObject:
   - component: {fileID: 872841723}
   - component: {fileID: 872841722}
   m_Layer: 0
-  m_Name: Square (172)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12136,9 +11516,8 @@ GameObject:
   m_Component:
   - component: {fileID: 876900301}
   - component: {fileID: 876900303}
-  - component: {fileID: 876900302}
   m_Layer: 0
-  m_Name: Square (205)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12159,32 +11538,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 208
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &876900302
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876900300}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &876900303
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12249,7 +11602,7 @@ GameObject:
   - component: {fileID: 895066132}
   - component: {fileID: 895066131}
   m_Layer: 0
-  m_Name: Square (164)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12359,7 +11712,7 @@ GameObject:
   - component: {fileID: 902245919}
   - component: {fileID: 902245920}
   m_Layer: 0
-  m_Name: Square (27)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12443,7 +11796,7 @@ GameObject:
   - component: {fileID: 921348121}
   - component: {fileID: 921348122}
   m_Layer: 0
-  m_Name: Square (64)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12527,7 +11880,7 @@ GameObject:
   - component: {fileID: 924577711}
   - component: {fileID: 924577712}
   m_Layer: 0
-  m_Name: Square (56)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12611,7 +11964,7 @@ GameObject:
   - component: {fileID: 931121552}
   - component: {fileID: 931121553}
   m_Layer: 0
-  m_Name: Square (22)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12696,7 +12049,7 @@ GameObject:
   - component: {fileID: 937083161}
   - component: {fileID: 937083160}
   m_Layer: 0
-  m_Name: Square (188)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12805,9 +12158,9 @@ GameObject:
   m_Component:
   - component: {fileID: 939561489}
   - component: {fileID: 939561491}
-  - component: {fileID: 939561490}
+  - component: {fileID: 939561492}
   m_Layer: 0
-  m_Name: Square (282)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12821,39 +12174,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939561488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2469997, y: -5.580001, z: 0.021509388}
+  m_LocalPosition: {x: 7.2469997, y: -5.38, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 486298863}
   m_RootOrder: 286
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &939561490
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939561488}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &939561491
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12906,6 +12233,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &939561492
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939561488}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.89921737, y: 0.92688525}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.638435, y: 3.7537706}
+  m_EdgeRadius: 0
 --- !u!1 &944885422
 GameObject:
   m_ObjectHideFlags: 0
@@ -12916,9 +12269,8 @@ GameObject:
   m_Component:
   - component: {fileID: 944885423}
   - component: {fileID: 944885425}
-  - component: {fileID: 944885424}
   m_Layer: 0
-  m_Name: Square (128)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12939,32 +12291,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &944885424
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944885422}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &944885425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13029,7 +12355,7 @@ GameObject:
   - component: {fileID: 948236933}
   - component: {fileID: 948236932}
   m_Layer: 0
-  m_Name: Square (159)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13138,9 +12464,9 @@ GameObject:
   m_Component:
   - component: {fileID: 948670099}
   - component: {fileID: 948670101}
-  - component: {fileID: 948670100}
+  - component: {fileID: 948670102}
   m_Layer: 0
-  m_Name: Square (226)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13161,32 +12487,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 229
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &948670100
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948670098}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &948670101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13239,6 +12539,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &948670102
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948670098}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000071525574}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.84, y: 9.270115}
+  m_EdgeRadius: 0
 --- !u!1 &953751040
 GameObject:
   m_ObjectHideFlags: 0
@@ -13250,7 +12576,7 @@ GameObject:
   - component: {fileID: 953751041}
   - component: {fileID: 953751042}
   m_Layer: 0
-  m_Name: Square (60)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13334,7 +12660,7 @@ GameObject:
   - component: {fileID: 956717246}
   - component: {fileID: 956717247}
   m_Layer: 0
-  m_Name: Square (69)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13418,7 +12744,7 @@ GameObject:
   - component: {fileID: 956727458}
   - component: {fileID: 956727459}
   m_Layer: 0
-  m_Name: Square (98)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13503,7 +12829,7 @@ GameObject:
   - component: {fileID: 960093717}
   - component: {fileID: 960093716}
   m_Layer: 0
-  m_Name: Square (147)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13614,7 +12940,7 @@ GameObject:
   - component: {fileID: 969867592}
   - component: {fileID: 969867591}
   m_Layer: 0
-  m_Name: Square (162)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13724,7 +13050,7 @@ GameObject:
   - component: {fileID: 972315934}
   - component: {fileID: 972315935}
   m_Layer: 0
-  m_Name: Square (16)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13807,9 +13133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 986219685}
   - component: {fileID: 986219687}
-  - component: {fileID: 986219686}
   m_Layer: 0
-  m_Name: Square (268)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13830,32 +13155,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 270
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &986219686
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986219684}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &986219687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13920,7 +13219,7 @@ GameObject:
   - component: {fileID: 1000828582}
   - component: {fileID: 1000828581}
   m_Layer: 0
-  m_Name: Square (158)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14030,7 +13329,7 @@ GameObject:
   - component: {fileID: 1009993109}
   - component: {fileID: 1009993110}
   m_Layer: 0
-  m_Name: Square (44)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14113,9 +13412,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1010612459}
   - component: {fileID: 1010612461}
-  - component: {fileID: 1010612460}
   m_Layer: 0
-  m_Name: Square (126)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14136,32 +13434,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 144
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1010612460
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010612458}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1010612461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21575,7 +20847,7 @@ GameObject:
   - component: {fileID: 1018743953}
   - component: {fileID: 1018743954}
   m_Layer: 0
-  m_Name: Square (84)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21659,7 +20931,7 @@ GameObject:
   - component: {fileID: 1022516537}
   - component: {fileID: 1022516538}
   m_Layer: 0
-  m_Name: Square (18)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21743,7 +21015,7 @@ GameObject:
   - component: {fileID: 1024909808}
   - component: {fileID: 1024909809}
   m_Layer: 0
-  m_Name: Square (90)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21827,7 +21099,7 @@ GameObject:
   - component: {fileID: 1025546656}
   - component: {fileID: 1025546657}
   m_Layer: 0
-  m_Name: Square (83)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21911,7 +21183,7 @@ GameObject:
   - component: {fileID: 1050210473}
   - component: {fileID: 1050210474}
   m_Layer: 0
-  m_Name: Square (68)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21995,7 +21267,7 @@ GameObject:
   - component: {fileID: 1062376155}
   - component: {fileID: 1062376156}
   m_Layer: 0
-  m_Name: Square (96)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22078,9 +21350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1064660799}
   - component: {fileID: 1064660801}
-  - component: {fileID: 1064660800}
   m_Layer: 0
-  m_Name: Square (228)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22101,32 +21372,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 231
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1064660800
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064660798}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1064660801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22191,7 +21436,7 @@ GameObject:
   - component: {fileID: 1082026090}
   - component: {fileID: 1082026089}
   m_Layer: 0
-  m_Name: Square (154)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22301,7 +21546,7 @@ GameObject:
   - component: {fileID: 1099785607}
   - component: {fileID: 1099785608}
   m_Layer: 0
-  m_Name: Square (29)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22387,7 +21632,7 @@ GameObject:
   - component: {fileID: 1109637534}
   m_Layer: 0
   m_Name: Wall (4)
-  m_TagString: Wall
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22496,7 +21741,7 @@ GameObject:
   - component: {fileID: 1110784288}
   - component: {fileID: 1110784289}
   m_Layer: 0
-  m_Name: Square (89)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22579,9 +21824,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1131518900}
   - component: {fileID: 1131518902}
-  - component: {fileID: 1131518901}
   m_Layer: 0
-  m_Name: Square (135)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22602,32 +21846,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1131518901
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131518899}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1131518902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22691,7 +21909,7 @@ GameObject:
   - component: {fileID: 1135325857}
   - component: {fileID: 1135325858}
   m_Layer: 0
-  m_Name: Square (38)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22775,7 +21993,7 @@ GameObject:
   - component: {fileID: 1143617075}
   - component: {fileID: 1143617076}
   m_Layer: 0
-  m_Name: Square (25)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22860,7 +22078,7 @@ GameObject:
   - component: {fileID: 1151516370}
   - component: {fileID: 1151516369}
   m_Layer: 0
-  m_Name: Square (142)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22970,7 +22188,7 @@ GameObject:
   - component: {fileID: 1153857397}
   - component: {fileID: 1153857398}
   m_Layer: 0
-  m_Name: Square (66)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23053,9 +22271,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1155826749}
   - component: {fileID: 1155826751}
-  - component: {fileID: 1155826750}
   m_Layer: 0
-  m_Name: Square (122)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23076,32 +22293,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 140
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1155826750
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155826748}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1155826751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23165,7 +22356,7 @@ GameObject:
   - component: {fileID: 1156415658}
   - component: {fileID: 1156415659}
   m_Layer: 0
-  m_Name: Square (92)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23250,7 +22441,7 @@ GameObject:
   - component: {fileID: 1161395854}
   - component: {fileID: 1161395853}
   m_Layer: 0
-  m_Name: Square (243)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23361,7 +22552,7 @@ GameObject:
   - component: {fileID: 1162695419}
   - component: {fileID: 1162695418}
   m_Layer: 0
-  m_Name: Square (216)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23471,7 +22662,7 @@ GameObject:
   - component: {fileID: 1163862314}
   - component: {fileID: 1163862315}
   m_Layer: 0
-  m_Name: Square (54)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23555,7 +22746,7 @@ GameObject:
   - component: {fileID: 1165622105}
   - component: {fileID: 1165622106}
   m_Layer: 0
-  m_Name: Square (8)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23638,9 +22829,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1174889529}
   - component: {fileID: 1174889531}
-  - component: {fileID: 1174889530}
   m_Layer: 0
-  m_Name: Square (141)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23661,32 +22851,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 155
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1174889530
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174889528}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1174889531
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23750,7 +22914,7 @@ GameObject:
   - component: {fileID: 1177182158}
   - component: {fileID: 1177182159}
   m_Layer: 0
-  m_Name: Square (31)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23833,9 +22997,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1184138242}
   - component: {fileID: 1184138244}
-  - component: {fileID: 1184138243}
   m_Layer: 0
-  m_Name: Square (233)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23856,32 +23019,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 235
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1184138243
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184138241}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1184138244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23945,7 +23082,7 @@ GameObject:
   - component: {fileID: 1199741001}
   - component: {fileID: 1199741002}
   m_Layer: 0
-  m_Name: Square (57)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24030,7 +23167,7 @@ GameObject:
   - component: {fileID: 1209932377}
   - component: {fileID: 1209932376}
   m_Layer: 0
-  m_Name: Square (140)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24141,7 +23278,7 @@ GameObject:
   - component: {fileID: 1213392523}
   - component: {fileID: 1213392522}
   m_Layer: 0
-  m_Name: Square (279)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24155,7 +23292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213392520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9370003, y: -5.580001, z: 0.021509388}
+  m_LocalPosition: {x: 0.9370003, y: -5.38, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24252,7 +23389,7 @@ GameObject:
   - component: {fileID: 1222126612}
   - component: {fileID: 1222126611}
   m_Layer: 0
-  m_Name: Square (217)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24362,7 +23499,7 @@ GameObject:
   - component: {fileID: 1228307151}
   - component: {fileID: 1228307152}
   m_Layer: 0
-  m_Name: Square (40)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24446,7 +23583,7 @@ GameObject:
   - component: {fileID: 1228514969}
   - component: {fileID: 1228514970}
   m_Layer: 0
-  m_Name: Square (39)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24529,9 +23666,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1232236986}
   - component: {fileID: 1232236988}
-  - component: {fileID: 1232236987}
   m_Layer: 0
-  m_Name: Square (127)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24552,32 +23688,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1232236987
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232236985}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1232236988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24642,7 +23752,7 @@ GameObject:
   - component: {fileID: 1238860688}
   - component: {fileID: 1238860687}
   m_Layer: 0
-  m_Name: Square (257)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24752,7 +23862,7 @@ GameObject:
   - component: {fileID: 1240844737}
   - component: {fileID: 1240844738}
   m_Layer: 0
-  m_Name: Square (119)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24837,7 +23947,7 @@ GameObject:
   - component: {fileID: 1245771348}
   - component: {fileID: 1245771347}
   m_Layer: 0
-  m_Name: Square (183)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24948,7 +24058,7 @@ GameObject:
   - component: {fileID: 1271458353}
   - component: {fileID: 1271458352}
   m_Layer: 0
-  m_Name: Square (255)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25058,7 +24168,7 @@ GameObject:
   - component: {fileID: 1272170129}
   - component: {fileID: 1272170130}
   m_Layer: 0
-  m_Name: Square (59)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25141,9 +24251,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1277527211}
   - component: {fileID: 1277527213}
-  - component: {fileID: 1277527212}
   m_Layer: 0
-  m_Name: Square (232)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25164,32 +24273,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 234
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1277527212
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277527210}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1277527213
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25252,9 +24335,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1287851800}
   - component: {fileID: 1287851802}
-  - component: {fileID: 1287851801}
   m_Layer: 0
-  m_Name: Square (124)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25275,32 +24357,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 142
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1287851801
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287851799}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1287851802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25364,7 +24420,7 @@ GameObject:
   - component: {fileID: 1310548956}
   - component: {fileID: 1310548957}
   m_Layer: 0
-  m_Name: Square (67)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25448,7 +24504,7 @@ GameObject:
   - component: {fileID: 1316909303}
   - component: {fileID: 1316909304}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25532,7 +24588,7 @@ GameObject:
   - component: {fileID: 1320940970}
   - component: {fileID: 1320940971}
   m_Layer: 0
-  m_Name: Square (6)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25616,7 +24672,7 @@ GameObject:
   - component: {fileID: 1323904516}
   - component: {fileID: 1323904517}
   m_Layer: 0
-  m_Name: Square (72)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25700,7 +24756,7 @@ GameObject:
   - component: {fileID: 1326320866}
   - component: {fileID: 1326320867}
   m_Layer: 0
-  m_Name: Square (65)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25784,7 +24840,7 @@ GameObject:
   - component: {fileID: 1329058198}
   - component: {fileID: 1329058199}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25868,7 +24924,7 @@ GameObject:
   - component: {fileID: 1332048748}
   - component: {fileID: 1332048749}
   m_Layer: 0
-  m_Name: Square (76)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25952,7 +25008,7 @@ GameObject:
   - component: {fileID: 1348280951}
   - component: {fileID: 1348280952}
   m_Layer: 0
-  m_Name: Square (37)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26036,7 +25092,7 @@ GameObject:
   - component: {fileID: 1366942714}
   - component: {fileID: 1366942715}
   m_Layer: 0
-  m_Name: Square (117)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26119,9 +25175,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1369041558}
   - component: {fileID: 1369041560}
-  - component: {fileID: 1369041559}
   m_Layer: 0
-  m_Name: Square (263)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26142,32 +25197,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 267
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1369041559
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369041557}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1369041560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26232,7 +25261,7 @@ GameObject:
   - component: {fileID: 1378991094}
   - component: {fileID: 1378991093}
   m_Layer: 0
-  m_Name: Square (156)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26342,7 +25371,7 @@ GameObject:
   - component: {fileID: 1387670872}
   - component: {fileID: 1387670873}
   m_Layer: 0
-  m_Name: Square (45)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26425,9 +25454,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1401409208}
   - component: {fileID: 1401409210}
-  - component: {fileID: 1401409209}
   m_Layer: 0
-  m_Name: Square (190)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26448,32 +25476,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 193
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1401409209
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401409207}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1401409210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26536,9 +25538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1408414228}
   - component: {fileID: 1408414230}
-  - component: {fileID: 1408414229}
   m_Layer: 0
-  m_Name: Square (275)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26559,32 +25560,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 279
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1408414229
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408414227}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1408414230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26649,7 +25624,7 @@ GameObject:
   - component: {fileID: 1413300881}
   - component: {fileID: 1413300880}
   m_Layer: 0
-  m_Name: Square (258)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26759,7 +25734,7 @@ GameObject:
   - component: {fileID: 1415219883}
   - component: {fileID: 1415219884}
   m_Layer: 0
-  m_Name: Square (43)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26842,9 +25817,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1424480145}
   - component: {fileID: 1424480147}
-  - component: {fileID: 1424480146}
   m_Layer: 0
-  m_Name: Square (274)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26865,32 +25839,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 278
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1424480146
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424480144}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1424480147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26954,7 +25902,7 @@ GameObject:
   - component: {fileID: 1429769226}
   - component: {fileID: 1429769227}
   m_Layer: 0
-  m_Name: Square (95)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27037,9 +25985,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1435706548}
   - component: {fileID: 1435706550}
-  - component: {fileID: 1435706549}
   m_Layer: 0
-  m_Name: Square (136)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27060,32 +26007,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1435706549
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435706547}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1435706550
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27149,7 +26070,7 @@ GameObject:
   - component: {fileID: 1436816634}
   - component: {fileID: 1436816635}
   m_Layer: 0
-  m_Name: Square (91)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27232,9 +26153,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1448967146}
   - component: {fileID: 1448967148}
-  - component: {fileID: 1448967147}
+  - component: {fileID: 1448967149}
   m_Layer: 0
-  m_Name: Square (198)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27255,32 +26176,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 201
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1448967147
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448967145}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1448967148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27333,6 +26228,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1448967149
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448967145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.7789936, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23.445744, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1451731001
 GameObject:
   m_ObjectHideFlags: 0
@@ -27344,7 +26265,7 @@ GameObject:
   - component: {fileID: 1451731002}
   - component: {fileID: 1451731003}
   m_Layer: 0
-  m_Name: Square (51)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27428,7 +26349,7 @@ GameObject:
   - component: {fileID: 1459696044}
   - component: {fileID: 1459696045}
   m_Layer: 0
-  m_Name: Square (103)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27511,9 +26432,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1463790597}
   - component: {fileID: 1463790599}
-  - component: {fileID: 1463790598}
+  - component: {fileID: 1463790600}
   m_Layer: 0
-  m_Name: Square (269)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27534,32 +26455,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 271
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1463790598
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463790596}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1463790599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27612,6 +26507,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1463790600
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463790596}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.9415884, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.3157005, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1464302757
 GameObject:
   m_ObjectHideFlags: 0
@@ -27623,7 +26544,7 @@ GameObject:
   - component: {fileID: 1464302758}
   - component: {fileID: 1464302759}
   m_Layer: 0
-  m_Name: Square (23)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27707,7 +26628,7 @@ GameObject:
   - component: {fileID: 1465784628}
   - component: {fileID: 1465784629}
   m_Layer: 0
-  m_Name: Square (7)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27906,7 +26827,7 @@ GameObject:
   - component: {fileID: 1474783404}
   - component: {fileID: 1474783403}
   m_Layer: 0
-  m_Name: Square (169)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28017,7 +26938,7 @@ GameObject:
   - component: {fileID: 1475226351}
   - component: {fileID: 1475226350}
   m_Layer: 0
-  m_Name: Square (168)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28127,7 +27048,7 @@ GameObject:
   - component: {fileID: 1479941512}
   - component: {fileID: 1479941513}
   m_Layer: 0
-  m_Name: Square (94)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28210,9 +27131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1482489560}
   - component: {fileID: 1482489562}
-  - component: {fileID: 1482489561}
   m_Layer: 0
-  m_Name: Square (133)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28233,32 +27153,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1482489561
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482489559}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1482489562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28321,9 +27215,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1485876899}
   - component: {fileID: 1485876901}
-  - component: {fileID: 1485876900}
   m_Layer: 0
-  m_Name: Square (270)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28344,32 +27237,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 272
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1485876900
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485876898}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1485876901
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28434,7 +27301,7 @@ GameObject:
   - component: {fileID: 1508122716}
   - component: {fileID: 1508122715}
   m_Layer: 0
-  m_Name: Square (145)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28545,7 +27412,7 @@ GameObject:
   - component: {fileID: 1531118867}
   - component: {fileID: 1531118866}
   m_Layer: 0
-  m_Name: Square (245)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28655,7 +27522,7 @@ GameObject:
   - component: {fileID: 1536216835}
   - component: {fileID: 1536216836}
   m_Layer: 0
-  m_Name: Square (61)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28738,9 +27605,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1539658488}
   - component: {fileID: 1539658490}
-  - component: {fileID: 1539658489}
   m_Layer: 0
-  m_Name: Square (131)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28761,32 +27627,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1539658489
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539658487}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1539658490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28849,9 +27689,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1540582069}
   - component: {fileID: 1540582071}
-  - component: {fileID: 1540582070}
   m_Layer: 0
-  m_Name: Square (195)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28872,32 +27711,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 198
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1540582070
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540582068}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1540582071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28961,7 +27774,7 @@ GameObject:
   - component: {fileID: 1543249435}
   - component: {fileID: 1543249436}
   m_Layer: 0
-  m_Name: Square (24)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29045,7 +27858,7 @@ GameObject:
   - component: {fileID: 1557112997}
   - component: {fileID: 1557112998}
   m_Layer: 0
-  m_Name: Square (112)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29129,7 +27942,7 @@ GameObject:
   - component: {fileID: 1559786758}
   - component: {fileID: 1559786759}
   m_Layer: 0
-  m_Name: Square (102)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29212,9 +28025,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1562594328}
   - component: {fileID: 1562594330}
-  - component: {fileID: 1562594329}
   m_Layer: 0
-  m_Name: Square (230)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29235,32 +28047,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 232
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1562594329
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562594327}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1562594330
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29325,7 +28111,7 @@ GameObject:
   - component: {fileID: 1573098042}
   - component: {fileID: 1573098041}
   m_Layer: 0
-  m_Name: Square (149)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29436,7 +28222,7 @@ GameObject:
   - component: {fileID: 1582303191}
   - component: {fileID: 1582303190}
   m_Layer: 0
-  m_Name: Square (177)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29545,9 +28331,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1583848244}
   - component: {fileID: 1583848246}
-  - component: {fileID: 1583848245}
   m_Layer: 0
-  m_Name: Square (235)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29568,32 +28353,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 237
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1583848245
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583848243}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1583848246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29658,7 +28417,7 @@ GameObject:
   - component: {fileID: 1585621198}
   - component: {fileID: 1585621197}
   m_Layer: 0
-  m_Name: Square (176)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29767,9 +28526,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1587386839}
   - component: {fileID: 1587386841}
-  - component: {fileID: 1587386840}
+  - component: {fileID: 1587386842}
   m_Layer: 0
-  m_Name: Square (146)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29790,32 +28549,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 156
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1587386840
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587386838}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1587386841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29868,6 +28601,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1587386842
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587386838}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010757446, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.475918, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1587483270
 GameObject:
   m_ObjectHideFlags: 0
@@ -29880,7 +28639,7 @@ GameObject:
   - component: {fileID: 1587483273}
   - component: {fileID: 1587483272}
   m_Layer: 0
-  m_Name: Square (209)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29990,7 +28749,7 @@ GameObject:
   - component: {fileID: 1588618088}
   - component: {fileID: 1588618089}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30073,9 +28832,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1595260079}
   - component: {fileID: 1595260081}
-  - component: {fileID: 1595260080}
   m_Layer: 0
-  m_Name: Square (227)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30096,32 +28854,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 230
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1595260080
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595260078}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1595260081
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30186,7 +28918,7 @@ GameObject:
   - component: {fileID: 1608874631}
   - component: {fileID: 1608874630}
   m_Layer: 0
-  m_Name: Square (211)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30297,7 +29029,7 @@ GameObject:
   - component: {fileID: 1611077050}
   - component: {fileID: 1611077049}
   m_Layer: 0
-  m_Name: Square (160)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30408,7 +29140,7 @@ GameObject:
   - component: {fileID: 1626957628}
   - component: {fileID: 1626957627}
   m_Layer: 0
-  m_Name: Square (148)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30518,7 +29250,7 @@ GameObject:
   - component: {fileID: 1642537989}
   - component: {fileID: 1642537990}
   m_Layer: 0
-  m_Name: Square (12)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30602,7 +29334,7 @@ GameObject:
   - component: {fileID: 1647201794}
   - component: {fileID: 1647201795}
   m_Layer: 0
-  m_Name: Square (5)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30685,9 +29417,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1650950147}
   - component: {fileID: 1650950149}
-  - component: {fileID: 1650950148}
   m_Layer: 0
-  m_Name: Square (229)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30708,32 +29439,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 239
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1650950148
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650950146}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1650950149
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30797,7 +29502,7 @@ GameObject:
   - component: {fileID: 1655265436}
   - component: {fileID: 1655265437}
   m_Layer: 0
-  m_Name: Square (55)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30881,7 +29586,7 @@ GameObject:
   - component: {fileID: 1676624492}
   - component: {fileID: 1676624493}
   m_Layer: 0
-  m_Name: Square (10)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30964,9 +29669,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1683534508}
   - component: {fileID: 1683534510}
-  - component: {fileID: 1683534509}
   m_Layer: 0
-  m_Name: Square (115)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30987,32 +29691,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 135
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1683534509
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683534507}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1683534510
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31076,7 +29754,7 @@ GameObject:
   - component: {fileID: 1690746496}
   - component: {fileID: 1690746497}
   m_Layer: 0
-  m_Name: Square (62)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31161,7 +29839,7 @@ GameObject:
   - component: {fileID: 1703745027}
   - component: {fileID: 1703745026}
   m_Layer: 0
-  m_Name: Square (170)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31273,7 +29951,7 @@ GameObject:
   - component: {fileID: 1705626746}
   m_Layer: 0
   m_Name: Wall (2)
-  m_TagString: Wall
+  m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31383,7 +30061,7 @@ GameObject:
   - component: {fileID: 1705884926}
   - component: {fileID: 1705884925}
   m_Layer: 0
-  m_Name: Square (256)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31492,9 +30170,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1709709037}
   - component: {fileID: 1709709039}
-  - component: {fileID: 1709709038}
   m_Layer: 0
-  m_Name: Square (114)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31515,32 +30192,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1709709038
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709709036}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1709709039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31604,7 +30255,7 @@ GameObject:
   - component: {fileID: 1730097358}
   - component: {fileID: 1730097359}
   m_Layer: 0
-  m_Name: Square (81)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31677,144 +30328,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1734921312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1734921317}
-  - component: {fileID: 1734921316}
-  - component: {fileID: 1734921315}
-  - component: {fileID: 1734921314}
-  - component: {fileID: 1734921313}
-  m_Layer: 6
-  m_Name: revoteBullet
-  m_TagString: Bullet
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!50 &1734921313
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734921312}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!70 &1734921314
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734921312}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1.0000001}
-  m_Direction: 0
---- !u!114 &1734921315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734921312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9c279437d7149341af7dc7ab3df0e25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 5
-  maxRebotes: 3
---- !u!212 &1734921316
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734921312}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1734921317
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734921312}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.27, y: -0.94, z: 0}
-  m_LocalScale: {x: 0.15545678, y: 0.22020453, z: 0.15545678}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1745340967
 GameObject:
   m_ObjectHideFlags: 0
@@ -31826,7 +30339,7 @@ GameObject:
   - component: {fileID: 1745340968}
   - component: {fileID: 1745340969}
   m_Layer: 0
-  m_Name: Square (4)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31911,7 +30424,7 @@ GameObject:
   - component: {fileID: 1749010790}
   - component: {fileID: 1749010789}
   m_Layer: 0
-  m_Name: Square (138)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32021,7 +30534,7 @@ GameObject:
   - component: {fileID: 1750603159}
   - component: {fileID: 1750603160}
   m_Layer: 0
-  m_Name: Square (107)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32104,9 +30617,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1772994451}
   - component: {fileID: 1772994453}
-  - component: {fileID: 1772994452}
   m_Layer: 0
-  m_Name: Square (281)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32120,39 +30632,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772994450}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.141, y: -4.44, z: 0.021509388}
+  m_LocalPosition: {x: 6.141, y: -4.2399993, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 486298863}
   m_RootOrder: 285
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1772994452
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772994450}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1772994453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32216,7 +30702,7 @@ GameObject:
   - component: {fileID: 1785564586}
   - component: {fileID: 1785564587}
   m_Layer: 0
-  m_Name: Square (50)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32289,6 +30775,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1787543651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4580288873948119246, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
+  m_PrefabInstance: {fileID: 4580288873502715242}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1787543652 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4580288873948119247, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
+  m_PrefabInstance: {fileID: 4580288873502715242}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787543651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177ec656b9a4078488c49ee2b90e60d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1787543654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787543651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 2561
+  NetworkGuid:
+    RawGuidValue: 392f6d16916643baa78360efbd3d4b7a
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1787543652}
+  SimulationBehaviours: []
 --- !u!1 &1794445624
 GameObject:
   m_ObjectHideFlags: 0
@@ -32300,7 +30826,7 @@ GameObject:
   - component: {fileID: 1794445625}
   - component: {fileID: 1794445626}
   m_Layer: 0
-  m_Name: Square (88)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32383,9 +30909,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1804354253}
   - component: {fileID: 1804354255}
-  - component: {fileID: 1804354254}
   m_Layer: 0
-  m_Name: Square (203)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32406,32 +30931,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 206
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1804354254
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804354252}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1804354255
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32496,7 +30995,7 @@ GameObject:
   - component: {fileID: 1805103651}
   - component: {fileID: 1805103650}
   m_Layer: 0
-  m_Name: Square (225)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32607,7 +31106,7 @@ GameObject:
   - component: {fileID: 1809704359}
   - component: {fileID: 1809704358}
   m_Layer: 0
-  m_Name: Square (242)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32717,7 +31216,7 @@ GameObject:
   - component: {fileID: 1814638577}
   - component: {fileID: 1814638578}
   m_Layer: 0
-  m_Name: Square (101)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32800,9 +31299,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1840009614}
   - component: {fileID: 1840009616}
-  - component: {fileID: 1840009615}
   m_Layer: 0
-  m_Name: Square (265)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32823,32 +31321,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 275
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1840009615
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840009613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1840009616
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32912,7 +31384,7 @@ GameObject:
   - component: {fileID: 1842202671}
   - component: {fileID: 1842202672}
   m_Layer: 0
-  m_Name: Square (74)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32996,7 +31468,7 @@ GameObject:
   - component: {fileID: 1847709478}
   - component: {fileID: 1847709479}
   m_Layer: 0
-  m_Name: Square (26)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33079,9 +31551,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1853553827}
   - component: {fileID: 1853553829}
-  - component: {fileID: 1853553828}
+  - component: {fileID: 1853553830}
   m_Layer: 0
-  m_Name: Square (192)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33102,32 +31574,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 195
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1853553828
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853553826}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1853553829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33180,6 +31626,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1853553830
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853553826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.027724504, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.763397, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &1862405073
 GameObject:
   m_ObjectHideFlags: 0
@@ -33191,7 +31663,7 @@ GameObject:
   - component: {fileID: 1862405074}
   - component: {fileID: 1862405075}
   m_Layer: 0
-  m_Name: Square (93)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33275,7 +31747,7 @@ GameObject:
   - component: {fileID: 1871682895}
   - component: {fileID: 1871682896}
   m_Layer: 0
-  m_Name: Square (41)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33360,7 +31832,7 @@ GameObject:
   - component: {fileID: 1872491775}
   - component: {fileID: 1872491774}
   m_Layer: 0
-  m_Name: Square (178)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33471,7 +31943,7 @@ GameObject:
   - component: {fileID: 1881873829}
   - component: {fileID: 1881873828}
   m_Layer: 0
-  m_Name: Square (277)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33485,7 +31957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881873826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.93700004, y: -4.44, z: 0.021509388}
+  m_LocalPosition: {x: 0.93700004, y: -4.2399993, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33580,9 +32052,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1916336631}
   - component: {fileID: 1916336633}
-  - component: {fileID: 1916336632}
   m_Layer: 0
-  m_Name: Square (167)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33603,32 +32074,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 170
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1916336632
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916336630}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1916336633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33691,9 +32136,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1930495241}
   - component: {fileID: 1930495243}
-  - component: {fileID: 1930495242}
   m_Layer: 0
-  m_Name: Square (238)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33714,32 +32158,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 241
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1930495242
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930495240}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1930495243
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33802,9 +32220,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1935055471}
   - component: {fileID: 1935055473}
-  - component: {fileID: 1935055472}
   m_Layer: 0
-  m_Name: Square (185)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33825,32 +32242,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 242
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1935055472
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935055470}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1935055473
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33915,7 +32306,7 @@ GameObject:
   - component: {fileID: 1962835331}
   - component: {fileID: 1962835330}
   m_Layer: 0
-  m_Name: Square (278)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33929,7 +32320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962835328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0430002, y: -5.580001, z: 0.021509388}
+  m_LocalPosition: {x: 2.0430002, y: -5.38, z: 0.021509388}
   m_LocalScale: {x: 0.61109, y: 0.61109, z: 0.61109}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34025,7 +32416,7 @@ GameObject:
   - component: {fileID: 1963512232}
   - component: {fileID: 1963512233}
   m_Layer: 0
-  m_Name: Square (19)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34110,7 +32501,7 @@ GameObject:
   - component: {fileID: 1971913170}
   - component: {fileID: 1971913169}
   m_Layer: 0
-  m_Name: Square (152)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34220,7 +32611,7 @@ GameObject:
   - component: {fileID: 1973643549}
   - component: {fileID: 1973643550}
   m_Layer: 0
-  m_Name: Square (48)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34305,7 +32696,7 @@ GameObject:
   - component: {fileID: 1977608430}
   - component: {fileID: 1977608429}
   m_Layer: 0
-  m_Name: Square (254)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34416,7 +32807,7 @@ GameObject:
   - component: {fileID: 1981344850}
   - component: {fileID: 1981344849}
   m_Layer: 0
-  m_Name: Square (180)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34592,7 +32983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987197394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.573, y: 0, z: -10}
+  m_LocalPosition: {x: -0.25, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34609,9 +33000,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1997211914}
   - component: {fileID: 1997211916}
-  - component: {fileID: 1997211915}
   m_Layer: 0
-  m_Name: Square (204)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34632,32 +33022,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 207
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1997211915
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997211913}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &1997211916
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34720,9 +33084,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2001315412}
   - component: {fileID: 2001315414}
-  - component: {fileID: 2001315413}
   m_Layer: 0
-  m_Name: Square (137)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34743,32 +33106,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 136
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2001315413
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001315411}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2001315414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34833,7 +33170,7 @@ GameObject:
   - component: {fileID: 2007151102}
   - component: {fileID: 2007151101}
   m_Layer: 0
-  m_Name: Square (239)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34942,9 +33279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2013313220}
   - component: {fileID: 2013313222}
-  - component: {fileID: 2013313221}
   m_Layer: 0
-  m_Name: Square (194)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34965,32 +33301,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 197
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2013313221
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013313219}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2013313222
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35053,9 +33363,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2020384491}
   - component: {fileID: 2020384493}
-  - component: {fileID: 2020384492}
   m_Layer: 0
-  m_Name: Square (207)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35076,32 +33385,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 210
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2020384492
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020384490}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2020384493
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35165,7 +33448,7 @@ GameObject:
   - component: {fileID: 2023449570}
   - component: {fileID: 2023449571}
   m_Layer: 0
-  m_Name: Square (100)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35248,9 +33531,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2025055363}
   - component: {fileID: 2025055365}
-  - component: {fileID: 2025055364}
   m_Layer: 0
-  m_Name: Square (153)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35271,32 +33553,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2025055364
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025055362}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2025055365
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35359,9 +33615,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2033243825}
   - component: {fileID: 2033243827}
-  - component: {fileID: 2033243826}
+  - component: {fileID: 2033243828}
   m_Layer: 0
-  m_Name: Square (134)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35382,32 +33638,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2033243826
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033243824}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2033243827
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35460,6 +33690,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2033243828
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033243824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.93038607, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.646485, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &2036417914
 GameObject:
   m_ObjectHideFlags: 0
@@ -35472,7 +33728,7 @@ GameObject:
   - component: {fileID: 2036417917}
   - component: {fileID: 2036417916}
   m_Layer: 0
-  m_Name: Square (240)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35583,7 +33839,7 @@ GameObject:
   - component: {fileID: 2038438401}
   - component: {fileID: 2038438400}
   m_Layer: 0
-  m_Name: Square (157)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35693,7 +33949,7 @@ GameObject:
   - component: {fileID: 2047674140}
   - component: {fileID: 2047674141}
   m_Layer: 0
-  m_Name: Square (11)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35777,7 +34033,7 @@ GameObject:
   - component: {fileID: 2061538033}
   - component: {fileID: 2061538034}
   m_Layer: 0
-  m_Name: Square (13)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35860,9 +34116,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2070689393}
   - component: {fileID: 2070689395}
-  - component: {fileID: 2070689394}
+  - component: {fileID: 2070689396}
   m_Layer: 0
-  m_Name: Square (264)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35883,32 +34139,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 268
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2070689394
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070689392}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2070689395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35961,6 +34191,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2070689396
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070689392}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.8992162, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.84, y: 1.9}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.6384325, y: 1.9}
+  m_EdgeRadius: 0
 --- !u!1 &2071243889
 GameObject:
   m_ObjectHideFlags: 0
@@ -35973,7 +34229,7 @@ GameObject:
   - component: {fileID: 2071243892}
   - component: {fileID: 2071243891}
   m_Layer: 0
-  m_Name: Square (222)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36082,9 +34338,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2080435855}
   - component: {fileID: 2080435857}
-  - component: {fileID: 2080435856}
   m_Layer: 0
-  m_Name: Square (197)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36105,32 +34360,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 200
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2080435856
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080435854}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2080435857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36193,9 +34422,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2080970404}
   - component: {fileID: 2080970406}
-  - component: {fileID: 2080970405}
   m_Layer: 0
-  m_Name: Square (273)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36216,32 +34444,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 277
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2080970405
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080970403}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2080970406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36306,7 +34508,7 @@ GameObject:
   - component: {fileID: 2084939470}
   - component: {fileID: 2084939469}
   m_Layer: 0
-  m_Name: Square (187)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36417,7 +34619,7 @@ GameObject:
   - component: {fileID: 2098098577}
   - component: {fileID: 2098098576}
   m_Layer: 0
-  m_Name: Square (223)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36527,7 +34729,7 @@ GameObject:
   - component: {fileID: 2114350778}
   - component: {fileID: 2114350779}
   m_Layer: 0
-  m_Name: Square (85)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36612,7 +34814,7 @@ GameObject:
   - component: {fileID: 2117269820}
   - component: {fileID: 2117269819}
   m_Layer: 0
-  m_Name: Square (181)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36722,7 +34924,7 @@ GameObject:
   - component: {fileID: 2118273771}
   - component: {fileID: 2118273772}
   m_Layer: 0
-  m_Name: Square (52)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36805,9 +35007,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2131287208}
   - component: {fileID: 2131287210}
-  - component: {fileID: 2131287209}
   m_Layer: 0
-  m_Name: Square (166)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36828,32 +35029,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 169
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2131287209
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131287207}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2131287210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36916,9 +35091,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2131705441}
   - component: {fileID: 2131705443}
-  - component: {fileID: 2131705442}
   m_Layer: 0
-  m_Name: Square (220)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36939,32 +35113,6 @@ Transform:
   m_Father: {fileID: 486298863}
   m_RootOrder: 228
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2131705442
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131705440}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84, y: 1.9}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.84, y: 1.9}
-  m_EdgeRadius: 0
 --- !u!212 &2131705443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37028,7 +35176,7 @@ GameObject:
   - component: {fileID: 2136833908}
   - component: {fileID: 2136833909}
   m_Layer: 0
-  m_Name: Square (104)
+  m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37113,7 +35261,7 @@ GameObject:
   - component: {fileID: 2139732533}
   - component: {fileID: 2139732532}
   m_Layer: 0
-  m_Name: Square (173)
+  m_Name: Pared
   m_TagString: Pared
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37221,7 +35369,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4580288873948119244, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4580288873948119244, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37267,5 +35415,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: --PowerUpsSpawner--
       objectReference: {fileID: 0}
+    - target: {fileID: 4580288873948119247, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
+      propertyPath: _powerUps.Array.data[0]
+      value: 
+      objectReference: {fileID: 5259032613728143691, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}

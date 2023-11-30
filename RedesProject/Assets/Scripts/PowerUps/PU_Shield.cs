@@ -4,22 +4,25 @@ using UnityEngine;
 using Fusion;
 public class PU_Shield : NetworkBehaviour
 {
-    [SerializeField] GameObject _shieldPrefab;
+    [SerializeField] GameObject shieldPrefab;
     [SerializeField] TankController _player;
     [SerializeField] PowerUpManager Buffs;
-    private void Awake()
-    {
-        Buffs.GetComponent<PowerUpManager>();
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        _player = collision.GetComponent<TankController>();
+        if (collision.gameObject.tag == "Player")
         {
-            Buffs.currentBuffs--;
-            _player = collision.GetComponent<TankController>();
-            var inst = Instantiate(_shieldPrefab, _player.transform.position, _player.transform.rotation);
-            inst.transform.parent = _player.transform;
-            Destroy(this.gameObject);
+            var bla = Runner.Spawn(shieldPrefab, _player.transform.position, transform.rotation);
+            bla.transform.parent = _player.transform;
         }
+        if (!Object || !Object.HasStateAuthority) return;
+
+        Desaparesco();
     }
+    public void Desaparesco()
+    {
+        Runner.Despawn(Object);
+    }
+
 }

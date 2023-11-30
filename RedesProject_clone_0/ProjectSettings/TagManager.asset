@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Shield
   - Pared
+  - Buff
   layers:
   - Default
   - TransparentFX

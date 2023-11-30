@@ -8,29 +8,22 @@ public class TankController : NetworkBehaviour
 {
     [Networked(OnChanged = nameof(OnLifeChanged))]
     [SerializeField] float _life { get; set; }
-
-    [SerializeField] Bullet _missilePrefab;
+    [SerializeField] GameObject _missilePrefab,RevoteBullet;
     [SerializeField] Transform _shootPoint;
     [SerializeField] NetworkRigidbody2D _MyRb;
-    NetworkInputsData _networkInputs;
-    public bool homingMissile, laser;
+    public NetworkInputsData _networkInputs;
     public bool _canShoot { get; set; }
     public float _rotSpeed;
     public float _movementSpeed;
     public float _maxSpeed;
     public event Action<float> OnLifeChange = delegate { };
     public event Action OnDespawned = delegate { };
-    public int _maxAmmo;
-    public int maxAmmo;
-    public int currentAmmo;
     float _rotZ;
     public float _currentTimerTime;
     float _lastFiredTime;
     private void Start()
     {
         _movementSpeed = _maxSpeed;
-        currentAmmo = _maxAmmo;
-        currentAmmo = maxAmmo;
     }
 
     public override void FixedUpdateNetwork()
@@ -38,15 +31,21 @@ public class TankController : NetworkBehaviour
         if (GetInput(out _networkInputs))
         {
             Movement(_networkInputs.h, _networkInputs.v);
-            if (_networkInputs.canShoot && homingMissile == false)
+            if (_networkInputs.canShoot && !_networkInputs.RevoteMissile)
             {
                 Shoot(_missilePrefab);
             }
+            if (_networkInputs.canShoot && _networkInputs.RevoteMissile)
+            {
+                Shoot(RevoteBullet);
+            }
+
         }
     }
-    void Shoot(Bullet _bulletPrefab)
+
+    void Shoot(GameObject _bulletPrefab)
     {
-        if (Time.time - _lastFiredTime < 0.15f) return;
+        if (Time.time - _lastFiredTime < 1f) return;
 
         _lastFiredTime = Time.time;
 
@@ -57,7 +56,7 @@ public class TankController : NetworkBehaviour
     {
         _canShoot = true;
 
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(1f);
 
         _canShoot = false;
     }
@@ -116,6 +115,7 @@ public class TankController : NetworkBehaviour
     void Dead()
     {
         Runner.Shutdown();
+        //pl.lose = true;
     }
     public override void Despawned(NetworkRunner runner, bool hasState)
     {

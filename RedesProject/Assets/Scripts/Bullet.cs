@@ -9,36 +9,34 @@ public class Bullet : NetworkBehaviour
     public float _bulletSpeed;
     [SerializeField] NetworkRigidbody2D _rb;
     Vector3 _lastVel;
-    
-    public override void FixedUpdateNetwork()
+    private void Awake()
     {
         _rb = GetComponent<NetworkRigidbody2D>();
+        _currentTimerTime = _maxTimerTime;
+    }
+    private void Start()
+    {
         _rb.Rigidbody.velocity = transform.up * _bulletSpeed;
         _lastVel = _rb.Rigidbody.velocity;
     }
+
     private void Update()
     {
         _currentTimerTime -= 1 * Time.deltaTime;
         if (_currentTimerTime <= 0)
-            Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D (Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Wall")
         {
-            var speed = _lastVel.magnitude;
-            var dir = Vector3.Reflect(_lastVel.normalized, collision.contacts[0].normal);
-            _rb.Rigidbody.velocity = dir * Mathf.Max(speed, 0f);
+            Destroy(gameObject);
+            Desaparesco();
         }
 
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Shield")
+        if (collision.gameObject.tag == "Shield" || collision.gameObject.tag == "Pared")
         {
-            Destroy(this.gameObject);
+            Desaparesco();
         }
 
         if (!Object || !Object.HasStateAuthority) return;
@@ -47,7 +45,11 @@ public class Bullet : NetworkBehaviour
         {
             enemy.TakeDamage(1f);
         }
+        Desaparesco();
 
+    }
+    public void Desaparesco()
+    {
         Runner.Despawn(Object);
     }
 }

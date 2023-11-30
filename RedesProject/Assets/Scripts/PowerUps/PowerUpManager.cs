@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PowerUpManager : MonoBehaviour
+using Fusion;
+public class PowerUpManager : NetworkBehaviour
 {
-    [SerializeField] GameObject[] _powerUps;
+    [SerializeField] NetworkObject[] _powerUps;
 
     [Header("VALUES")]
     [SerializeField] float _boundWidth, _boundHeight;
@@ -25,10 +25,10 @@ public class PowerUpManager : MonoBehaviour
         _currentTimerTime -= 1 * Time.deltaTime;
         if (_currentTimerTime <= 0 /*&& currentBuffs>=maxBuffs*/)
         {
-
-            _puIndex = Random.Range(0, _powerUps.Length);
-            Instantiate(_powerUps[_puIndex].gameObject, new Vector3(Random.Range(-_boundWidth / 2, _boundWidth / 2), Random.Range(-_boundHeight / 2, _boundHeight / 2), 0), transform.rotation);
-            currentBuffs++;
+            Runner.Spawn(_powerUps[Random.Range(0, _powerUps.Length)], new Vector3(Random.Range(-_boundWidth / 2, _boundWidth / 2), Random.Range(-_boundHeight / 2, _boundHeight / 2), 0), transform.rotation);
+            //_puIndex = Random.Range(0, _powerUps.Length);
+            //Instantiate(_powerUps[_puIndex].gameObject, new Vector3(Random.Range(-_boundWidth / 2, _boundWidth / 2), Random.Range(-_boundHeight / 2, _boundHeight / 2), 0), transform.rotation);
+            //currentBuffs++;
             _currentTimerTime = _maxTimerTime;
         }
 

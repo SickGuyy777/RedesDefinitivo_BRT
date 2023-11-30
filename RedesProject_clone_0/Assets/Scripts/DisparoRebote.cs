@@ -3,50 +3,43 @@ using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
 
-public class DisparoRebote : MonoBehaviour
+public class DisparoRebote : NetworkBehaviour
 {
-    public float velocidad = 5f; // Velocidad de la bala
-    public int maxRebotes = 3;   // Número máximo de rebotes
-
-    private int rebotesRealizados = 0;
-
-    void Update()
+    public NetworkRigidbody2D ballRb;
+    [SerializeField] int speed;
+    [SerializeField] int currentRevote;
+    Vector3 _lastVel;
+    private void Start()
     {
-        // Mueve la bala en la dirección hacia adelante
-        transform.Translate(Vector2.up * velocidad * Time.deltaTime);
-
-        // Detecta colisiones
-        DetectarColision();
+        ballRb.Rigidbody.velocity = transform.up * speed;
+        _lastVel = ballRb.Rigidbody.velocity;
     }
-
-    void DetectarColision()
+    private void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, 0.1f);
-
-        if (hit.collider != null && hit.collider.CompareTag("Pared"))
+        if (currentRevote <= 0)
         {
-            // Si colisiona con algo con el tag "pared", rebota
-            if (rebotesRealizados < maxRebotes)
-            {
-                Rebote(hit.normal);
-                rebotesRealizados++;
-            }
-            else
-            {
-                // Si alcanza el número máximo de rebotes, destruye la bala
-                Destroy(gameObject);
-            }
+            Desaparesco();
         }
     }
-
-    void Rebote(Vector2 normalDeColision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Refleja la dirección de la bala en la normal de la superficie de colisión
-        Vector2 direccionReflejada = Vector2.Reflect(transform.up, normalDeColision);
-        transform.up = direccionReflejada;
-
-        // Ajusta la posición ligeramente para evitar colisiones continuas
-        transform.Translate(Vector2.up * 0.1f);
+        if (collision.collider.CompareTag("Pared"))
+        {
+            var speed = _lastVel.magnitude;
+            var direction = Vector3.Reflect(_lastVel.normalized, collision.contacts[0].normal);
+            ballRb.Rigidbody.velocity = direction * Mathf.Max(speed, 0f);
+            currentRevote--;
+        }
+        if (!Object || !Object.HasStateAuthority) return;
+        else if (collision.collider.GetComponent<TankController>() != null)
+        {
+            collision.collider.GetComponent<TankController>().TakeDamage(1f);
+        }
+        Desaparesco();
     }
 
+    void Desaparesco()
+    {
+        Runner.Despawn(Object);
+    }
 }
