@@ -21,6 +21,9 @@ public class TankController : NetworkBehaviour
     float _rotZ;
     public float _currentTimerTime;
     float _lastFiredTime;
+    //timer del bufo de bala rebotina
+    public float _maxBTimeufRebot;
+    float _currentTimeBufRebot;
     private void Start()
     {
         _movementSpeed = _maxSpeed;
@@ -42,7 +45,15 @@ public class TankController : NetworkBehaviour
 
         }
     }
-
+    void TimerRevote()
+    {
+        _currentTimeBufRebot -= 1 * Time.deltaTime;
+        if(_currentTimerTime<=0)
+        {
+            _networkInputs.RevoteMissile = false;
+            _currentTimerTime = _maxBTimeufRebot;
+        }
+    }
     void Shoot(GameObject _bulletPrefab)
     {
         if (Time.time - _lastFiredTime < 1f) return;

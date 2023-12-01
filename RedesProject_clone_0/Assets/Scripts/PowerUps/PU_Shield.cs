@@ -11,7 +11,7 @@ public class PU_Shield : NetworkBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _player = collision.GetComponent<TankController>();
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" )
         {
             var bla = Runner.Spawn(shieldPrefab, _player.transform.position, transform.rotation);
             bla.transform.parent = _player.transform;

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4580288873948119244}
   - component: {fileID: 4580288873948119247}
+  - component: {fileID: -967980286637787022}
   m_Layer: 0
   m_Name: --PowerUpsSpawner--
   m_TagString: Untagged
@@ -44,10 +45,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 177ec656b9a4078488c49ee2b90e60d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
   _powerUps:
-  - {fileID: 7386719547851879974, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
+  - {fileID: 5259032613728143691, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
+  - {fileID: -1883397871997425742, guid: 6da7ca08826aa354d856f7dd2c095bae, type: 3}
   _boundWidth: 34.5
   _boundHeight: 18
   _maxTimerTime: 15
   currentBuffs: 0
   maxBuffs: 5
+--- !u!114 &-967980286637787022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4580288873948119246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 2305
+  NetworkGuid:
+    RawGuidValue: 5ddb47a0660ff9c4cb797e1b8ae22a7d
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 4580288873948119247}
+  SimulationBehaviours: []

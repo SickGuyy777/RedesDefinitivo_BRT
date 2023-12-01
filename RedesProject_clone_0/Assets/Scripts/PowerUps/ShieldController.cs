@@ -20,7 +20,11 @@ public class ShieldController : NetworkBehaviour
         _currentTime -= 1 * Time.deltaTime;
         if (_currentTime <= 0)
         {
-            Destroy(this.gameObject);
+            Desaparesco();
         }
+    }
+    public void Desaparesco()
+    {
+        Runner.Despawn(Object);
     }
 }
