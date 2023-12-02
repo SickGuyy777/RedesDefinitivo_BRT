@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Fusion;
-
+using UnityEngine.UI;
 public class TankController : NetworkBehaviour
 {
     [Networked(OnChanged = nameof(OnLifeChanged))]
@@ -13,6 +13,7 @@ public class TankController : NetworkBehaviour
     [SerializeField] NetworkRigidbody2D _MyRb;
     public NetworkInputsData _networkInputs;
     public bool _canShoot { get; set; }
+    public bool RevoteMissile = false;
     public float _rotSpeed;
     public float _movementSpeed;
     public float _maxSpeed;
@@ -21,13 +22,14 @@ public class TankController : NetworkBehaviour
     float _rotZ;
     public float _currentTimerTime;
     float _lastFiredTime;
-    //public NetworkPlayer pl;
+    public GameObject ImageDead;
     //timer del bufo de bala rebotina
     public float _maxBTimeufRebot;
     float _currentTimeBufRebot;
     private void Start()
     {
         _movementSpeed = _maxSpeed;
+        _currentTimeBufRebot = _maxBTimeufRebot;
     }
 
     public override void FixedUpdateNetwork()
@@ -35,15 +37,15 @@ public class TankController : NetworkBehaviour
         if (GetInput(out _networkInputs))
         {
             Movement(_networkInputs.h, _networkInputs.v);
-            if (_networkInputs.canShoot && !_networkInputs.RevoteMissile)
+            if (_networkInputs.canShoot && !RevoteMissile)
             {
                 Shoot(_missilePrefab);
-                //Shoot(RevoteBullet);
             }
-            //if (_networkInputs.canShoot && _networkInputs.RevoteMissile)
-            //{
-            //    Shoot(RevoteBullet);
-            //}
+            if (_networkInputs.canShoot && RevoteMissile)
+            {
+                Shoot(RevoteBullet);
+                TimerRevote();
+            }
 
         }
     }
@@ -52,7 +54,7 @@ public class TankController : NetworkBehaviour
         _currentTimeBufRebot -= 1 * Time.deltaTime;
         if(_currentTimerTime<=0)
         {
-            _networkInputs.RevoteMissile = false;
+            RevoteMissile = false;
             _currentTimerTime = _maxBTimeufRebot;
         }
     }
@@ -88,12 +90,12 @@ public class TankController : NetworkBehaviour
         if (v > 0)
         {
             _movementSpeed = _maxSpeed;
-            transform.position += transform.up * _movementSpeed * Time.deltaTime;
+            transform.position += _movementSpeed * Time.deltaTime * transform.up;
         }
         else if (v < 0)
         {
             _movementSpeed = _maxSpeed / 1.5f;
-            transform.position += -transform.up * _movementSpeed * Time.deltaTime;
+            transform.position += _movementSpeed * Time.deltaTime * -transform.up;
         }
     }
     public void TakeDamage(float dmg)
@@ -105,13 +107,16 @@ public class TankController : NetworkBehaviour
     void RPC_GetHit(float dmg)
     {
         _life -= dmg;
-
-        OnLifeChange(_life / 100);
-
         if (_life <= 0)
         {
             Dead();
         }
+    }
+    static void OnLifeChanged(Changed<TankController> changed)
+    {
+        var behaviour = changed.Behaviour;
+
+        behaviour.OnLifeChange(behaviour._life / 100);
     }
     public override void Spawned()
     {
@@ -119,16 +124,11 @@ public class TankController : NetworkBehaviour
 
         LifeBarHandler.Instance.SpawnLifeBar(this);
     }
-    static void OnLifeChanged(Changed<TankController> changed)
-    {
-        var behaviour = changed.Behaviour;
-        behaviour.OnLifeChange(behaviour._life / 100);
-    }
 
     void Dead()
     {
+        Instantiate(ImageDead, transform.position, transform.rotation);
         Runner.Shutdown();
-        //pl.lose = true;
     }
     public override void Despawned(NetworkRunner runner, bool hasState)
     {

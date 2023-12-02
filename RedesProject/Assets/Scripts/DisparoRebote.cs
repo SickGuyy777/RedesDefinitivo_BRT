@@ -38,7 +38,7 @@ public class DisparoRebote : NetworkBehaviour
         if (!Object || !Object.HasStateAuthority) return;
         else if (collision.collider.GetComponent<TankController>() != null)
         {
-            collision.collider.GetComponent<TankController>().TakeDamage(1f);
+            collision.collider.GetComponent<TankController>().TakeDamage(25f);
             Desaparesco();
         }
     }

@@ -43,7 +43,7 @@ public class Bullet : NetworkBehaviour
 
         if (collision.TryGetComponent(out TankController enemy))
         {
-            enemy.TakeDamage(1f);
+            enemy.TakeDamage(25f);
         }
         Desaparesco();
 

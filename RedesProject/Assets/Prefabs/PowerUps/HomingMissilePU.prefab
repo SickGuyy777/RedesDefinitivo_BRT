@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   _player: {fileID: 7368160372169905717, guid: 60d199ab61d1ab941be10b3b5ece5367, type: 3}
+  spawnBuffs: {fileID: 4580288873948119247, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}
 --- !u!114 &-1883397871997425742
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,7 +6,6 @@ public class CharacterInputsHandler : MonoBehaviour
 {
     NetworkInputsData _networkInputs;
     public bool canshoot;
-    public bool RevoteMisile;
     private void Start()
     { 
         _networkInputs = new NetworkInputsData();
@@ -25,8 +24,6 @@ public class CharacterInputsHandler : MonoBehaviour
     {
         _networkInputs.canShoot = canshoot;
         canshoot = false;
-        _networkInputs.RevoteMissile = RevoteMisile;
-        RevoteMisile=false;
         return _networkInputs;
     }
 }

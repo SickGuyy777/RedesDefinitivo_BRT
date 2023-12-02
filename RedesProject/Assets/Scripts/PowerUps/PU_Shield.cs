@@ -13,6 +13,7 @@ public class PU_Shield : NetworkBehaviour
         _player = collision.GetComponent<TankController>();
         if (collision.gameObject.tag == "Player" )
         {
+            Buffs.currentBuffs--;
             var bla = Runner.Spawn(shieldPrefab, _player.transform.position, transform.rotation);
             bla.transform.parent = _player.transform;
         }

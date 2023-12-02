@@ -23,8 +23,9 @@ public class PowerUpManager : NetworkBehaviour
     private void Update()
     {
         _currentTimerTime -= 1 * Time.deltaTime;
-        if (_currentTimerTime <= 0 /*&& currentBuffs>=maxBuffs*/)
+        if (_currentTimerTime <= 0 && currentBuffs <= maxBuffs)
         {
+            currentBuffs++;
             Runner.Spawn(_powerUps[Random.Range(0, _powerUps.Length)], new Vector3(Random.Range(-_boundWidth / 2, _boundWidth / 2), Random.Range(-_boundHeight / 2, _boundHeight / 2), 0), transform.rotation);
             _currentTimerTime = _maxTimerTime;
         }

@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  __life: 3
+  __life: 100
   _missilePrefab: {fileID: 4483232015647703627, guid: c215ac02486f348499be0e924fc04648, type: 3}
   RevoteBullet: {fileID: 1981489984864309252, guid: 1cc4633c779b1e74fbc27ef4f2e05b79, type: 3}
   _shootPoint: {fileID: 8092534998995235853}
@@ -448,6 +448,8 @@ MonoBehaviour:
   _movementSpeed: 0
   _maxSpeed: 25
   _currentTimerTime: 0
+  lose: 0
+  ImageDead: {fileID: 1920537072142608157, guid: c3c67eb8fb1003f49a74876756c8d05a, type: 3}
   _maxBTimeufRebot: 10
 --- !u!50 &1341752626
 Rigidbody2D:
@@ -535,7 +537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  lose: 0
 --- !u!114 &5568064173241473775
 MonoBehaviour:
   m_ObjectHideFlags: 0

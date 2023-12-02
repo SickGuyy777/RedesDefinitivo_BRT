@@ -47,8 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
   _powerUps:
-  - {fileID: 5259032613728143691, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
   - {fileID: -1883397871997425742, guid: 6da7ca08826aa354d856f7dd2c095bae, type: 3}
+  - {fileID: 5259032613728143691, guid: a4e5b471ed543ae40904e5dba404fd0a, type: 3}
   _boundWidth: 34.5
   _boundHeight: 18
   _maxTimerTime: 15

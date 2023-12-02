@@ -5,13 +5,14 @@ using Fusion;
 public class PU_HomingMissile : NetworkBehaviour
 {
     [SerializeField] TankController _player;
-
+    [SerializeField] PowerUpManager spawnBuffs;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _player = collision.GetComponent <TankController>();
         if (collision.gameObject.tag == "Player")
         {
-            _player._networkInputs.RevoteMissile = true;
+            spawnBuffs.currentBuffs--;
+            _player.RevoteMissile = true;
         }
         if (!Object || !Object.HasStateAuthority) return;
 

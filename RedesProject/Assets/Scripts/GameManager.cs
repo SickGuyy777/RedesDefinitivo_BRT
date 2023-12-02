@@ -2,27 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
+using System.Linq;
 public class GameManager : NetworkBehaviour
 {
     public List<NetworkPlayer> tanques;
-    public GameObject lose;
-    public GameObject win;
-    public GameObject canvas;
-    public StartGameArgs handler;
+    public GameObject canvaswin;
 
-    void Update()
-    {
-        if (handler.PlayerCount != 2)
-        {
-            foreach (var tanque in tanques)
-            {
-                if (tanque != null && tanque.lose)
-                {
-                    lose.SetActive(true);
+    //void Update()
+    //{
 
-                }
-            }
-        }
+    //        foreach (var tanque in tanques)
+    //        {
+    //            if (tanque != null && tanque.lose)
+    //            {
+    //                var tanqueConFalse = tanques.FirstOrDefault(t => t != null && !t.lose);
 
-    }
+    //                if (tanqueConFalse != null)
+    //                {
+    //                 Instantiate(canvaswin, transform.position, transform.rotation);
+    //                }
+    //            }
+    //        }
+    //}
 }
