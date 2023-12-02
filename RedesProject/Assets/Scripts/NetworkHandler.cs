@@ -28,6 +28,7 @@ public class NetworkHandler : MonoBehaviour
             Scene = sceneToLoad,
             SessionName = "GameSession",
             SceneManager = sceneObject ,
+            PlayerCount=2
             
         });
 

@@ -21,6 +21,7 @@ public class TankController : NetworkBehaviour
     float _rotZ;
     public float _currentTimerTime;
     float _lastFiredTime;
+    //public NetworkPlayer pl;
     //timer del bufo de bala rebotina
     public float _maxBTimeufRebot;
     float _currentTimeBufRebot;
@@ -37,11 +38,12 @@ public class TankController : NetworkBehaviour
             if (_networkInputs.canShoot && !_networkInputs.RevoteMissile)
             {
                 Shoot(_missilePrefab);
+                //Shoot(RevoteBullet);
             }
-            if (_networkInputs.canShoot && _networkInputs.RevoteMissile)
-            {
-                Shoot(RevoteBullet);
-            }
+            //if (_networkInputs.canShoot && _networkInputs.RevoteMissile)
+            //{
+            //    Shoot(RevoteBullet);
+            //}
 
         }
     }

@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  ballRb: {fileID: -6255737087661762171}
-  speed: 5
+  ballRb: {fileID: 1981489984864309253}
+  speed: 10
   currentRevote: 70
 --- !u!50 &1981489984864309253
 Rigidbody2D:

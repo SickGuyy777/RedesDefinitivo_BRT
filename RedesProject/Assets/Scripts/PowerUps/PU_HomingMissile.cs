@@ -8,7 +8,7 @@ public class PU_HomingMissile : NetworkBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _player = collision.GetComponent<TankController>();
+        _player = collision.GetComponent <TankController>();
         if (collision.gameObject.tag == "Player")
         {
             _player._networkInputs.RevoteMissile = true;

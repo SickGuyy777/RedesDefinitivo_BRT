@@ -10,7 +10,7 @@ public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
     [SerializeField] NetworkPlayer _playerPrefab;
     [SerializeField] GameManager game;
     CharacterInputsHandler _characterInputs;
-
+    public StartGameArgs handler;
     public void OnConnectedToServer(NetworkRunner runner)
     {
         if (runner.Topology == SimulationConfig.Topologies.Shared)

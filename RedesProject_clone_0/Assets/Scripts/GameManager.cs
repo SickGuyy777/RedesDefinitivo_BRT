@@ -1,26 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class GameManager : MonoBehaviour
+using Fusion;
+public class GameManager : NetworkBehaviour
 {
     public List<NetworkPlayer> tanques;
-    public GameObject obj;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject lose;
+    public GameObject win;
+    public GameObject canvas;
+    public StartGameArgs handler;
 
-    // Update is called once per frame
     void Update()
     {
-        foreach (var tanque in tanques)
+        if (handler.PlayerCount != 2)
         {
-            if (tanque != null && tanque.lose)
+            foreach (var tanque in tanques)
             {
-                obj.SetActive(true);
+                if (tanque != null && tanque.lose)
+                {
+                    lose.SetActive(true);
+
+                }
             }
         }
+
     }
 }
