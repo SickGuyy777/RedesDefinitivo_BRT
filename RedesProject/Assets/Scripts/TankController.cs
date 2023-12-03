@@ -14,6 +14,7 @@ public class TankController : NetworkBehaviour
     public NetworkInputsData _networkInputs;
     public bool _canShoot { get; set; }
     public bool RevoteMissile = false;
+    public bool lose = false;
     public float _rotSpeed;
     public float _movementSpeed;
     public float _maxSpeed;
@@ -129,6 +130,7 @@ public class TankController : NetworkBehaviour
     {
         Instantiate(ImageDead, transform.position, transform.rotation);
         Runner.Shutdown();
+        lose = true;
     }
     public override void Despawned(NetworkRunner runner, bool hasState)
     {

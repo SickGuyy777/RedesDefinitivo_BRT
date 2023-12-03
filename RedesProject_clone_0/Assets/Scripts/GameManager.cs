@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
 using System.Linq;
-public class GameManager : NetworkBehaviour
+public class GameManager : MonoBehaviour
 {
     public List<NetworkPlayer> tanques;
     public GameObject canvaswin;
 
-    //void Update()
-    //{
+    void Update()
+    {
 
-    //        foreach (var tanque in tanques)
-    //        {
-    //            if (tanque != null && tanque.lose)
-    //            {
-    //                var tanqueConFalse = tanques.FirstOrDefault(t => t != null && !t.lose);
+        //foreach (var tanque in tanques)
+        //{
+        //    if (tanque != null && tanque.lose)
+        //    {
+        //        var tanqueConFalse = tanques.FirstOrDefault(t => t != null && !t.lose);
 
-    //                if (tanqueConFalse != null)
-    //                {
-    //                 Instantiate(canvaswin, transform.position, transform.rotation);
-    //                }
-    //            }
-    //        }
-    //}
+        //        if (tanqueConFalse != null)
+        //        {
+        //            Instantiate(canvaswin, transform.position, transform.rotation);
+        //        }
+        //    }
+        //}
+    }
 }

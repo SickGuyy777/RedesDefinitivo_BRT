@@ -126,6 +126,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
+  InterpolationSpace: 0
+  InterpolationTarget: {fileID: 3966379273433451867}
+  InterpolateErrorCorrection: 1
+  InterpolatedErrorCorrectionSettings:
+    MinRate: 3.3
+    MaxRate: 10
+    PosBlendStart: 0.25
+    PosBlendEnd: 1
+    PosMinCorrection: 0.025
+    PosTeleportDistance: 2
+    RotBlendStart: 0.1
+    RotBlendEnd: 0.5
+    RotTeleportRadians: 1.5
+  UseLegacySharedModeInterpolation: 0
+  TargetInterpolationDelay: 0.03
   shieldPrefab: {fileID: 6396859045874315322, guid: 69098bb678fe77a4eb373fa05e19e8e2, type: 3}
   _player: {fileID: 7368160372169905717, guid: 60d199ab61d1ab941be10b3b5ece5367, type: 3}
   Buffs: {fileID: 4580288873948119247, guid: 5ddb47a0660ff9c4cb797e1b8ae22a7d, type: 3}

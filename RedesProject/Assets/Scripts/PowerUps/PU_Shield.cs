@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
-public class PU_Shield : NetworkBehaviour
+public class PU_Shield : NetworkTransform
 {
     [SerializeField] GameObject shieldPrefab;
     [SerializeField] TankController _player;

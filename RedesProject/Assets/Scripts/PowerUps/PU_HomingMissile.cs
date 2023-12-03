@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fusion;
-public class PU_HomingMissile : NetworkBehaviour
+public class PU_HomingMissile : NetworkTransform
 {
     [SerializeField] TankController _player;
     [SerializeField] PowerUpManager spawnBuffs;

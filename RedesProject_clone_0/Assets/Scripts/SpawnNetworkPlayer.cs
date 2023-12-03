@@ -16,8 +16,8 @@ public class SpawnNetworkPlayer : MonoBehaviour, INetworkRunnerCallbacks
         if (runner.Topology == SimulationConfig.Topologies.Shared)
         {
             Debug.Log("[Custom Msg] On Connected To Server - Spawning Player as Local...");
-            runner.Spawn(_playerPrefab, Vector3.zero, Quaternion.identity, runner.LocalPlayer);
             game.tanques.Add(_playerPrefab);
+            runner.Spawn(_playerPrefab, Vector3.zero, Quaternion.identity, runner.LocalPlayer);
         }
     }
 

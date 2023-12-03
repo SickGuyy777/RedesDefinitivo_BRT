@@ -7237,7 +7237,6 @@ GameObject:
   m_Component:
   - component: {fileID: 500986393}
   - component: {fileID: 500986392}
-  - component: {fileID: 500986394}
   m_Layer: 0
   m_Name: GameManger
   m_TagString: Untagged
@@ -7257,7 +7256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896b8b0771407a646b0c195ff73ef98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interpolationDataSource: 0
   tanques: []
   canvaswin: {fileID: 1920537072142608157, guid: 11abe0ba1a2984442838c4722f737bee, type: 3}
 --- !u!4 &500986393
@@ -7275,30 +7273,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &500986394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500986391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjectInterest: 1
-  DefaultInterestGroups: []
-  DestroyWhenStateAuthorityLeaves: 0
-  AllowStateAuthorityOverride: 1
-  AoiPositionSource: {fileID: 0}
-  Flags: 2561
-  NetworkGuid:
-    RawGuidValue: 801cd50f1ac44e7bb59bd0f2614392f5
-  NestedObjects: []
-  NetworkedBehaviours:
-  - {fileID: 500986392}
-  SimulationBehaviours: []
 --- !u!1 &509844257
 GameObject:
   m_ObjectHideFlags: 0
